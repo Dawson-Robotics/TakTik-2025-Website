@@ -6,7 +6,8 @@
   "scripts": {
     "init": "cd site && npm install && cd ../content/api && npm install",
     "build": "cd site && npm i && npm run build && cd ../content/api && npm i",
-    "run": "cd content/api/ && npm run start"
+    "run": "cd content/api/ && npm run start",
+    "start": "cd site && npm install && npm start"
   },
   "repository": {
     "type": "git",
