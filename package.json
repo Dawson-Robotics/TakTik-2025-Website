@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Dawson-Robotics/TakTik-2025-Website/issues"
   },
-  "homepage": "https://github.com/Dawson-Robotics/TakTik-2025-Website#readme"
+  "homepage": "https://github.com/Dawson-Robotics/TakTik-2025-Website#readme",
+  "dependencies": {
+    "taktik-2025-website": "file:"
+  }
 }
