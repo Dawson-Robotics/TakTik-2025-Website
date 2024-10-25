@@ -20,6 +20,10 @@ to run the website from the root folder
 
 vscode extention live preview
 
+## example
+
+i am working on the team page
+
 ## playground
 
 The playground folder is where team members can go and try/practice any ideas they have without having to worry about messing something up in the main website
