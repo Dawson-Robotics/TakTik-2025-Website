@@ -15,3 +15,7 @@ Then clone the repository
 to run the website from the root folder
 
 `npm run start`
+
+## playground
+
+The playground folder is a palce where team members can go and try/practice any ideas they have without having to worry about messing something up in the main website
