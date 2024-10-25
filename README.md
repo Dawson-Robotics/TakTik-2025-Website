@@ -8,6 +8,9 @@ Dawson's robotics website is made using node and reactjs. To learn more about re
 
 The playground folder is where team members can go and try/practice any ideas they have without having to worry about messing something up in the main website
 
+## site
+
+The site folder is where all the development of the main website happens. In it you will find the code for all the pages and their react components
 
 ## Setup
 
