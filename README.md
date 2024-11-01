@@ -33,3 +33,12 @@ to run the website from the root folder in vscode's terminal run:
 Recommended if you know the basics already but if you're still learning it may be detrimental  
 [intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples)
 
+## Checklist
+
+- [ ] Home page
+- [ ] Team page
+- [ ] Divisions page
+- [ ] Logs page
+- [ ] Individual team pages
+- [ ] media / thank you page
+- [ ] crew page
