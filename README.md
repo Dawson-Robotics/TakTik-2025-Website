@@ -42,3 +42,4 @@ Recommended if you know the basics already but if you're still learning it may b
 - [ ] Individual team pages
 - [ ] media / thank you page
 - [ ] crew page
+- [ ] Minigames! like the fallout hacking game
