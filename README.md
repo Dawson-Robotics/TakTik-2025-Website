@@ -22,11 +22,14 @@ We recommend using [git bash](https://git-scm.com/downloads/win) but regular ter
 
 `git clone https://github.com/Dawson-Robotics/TakTik-2025-Website.git`
 
-to run the website from the root folder in vscode's terminal run:
+to run the website from the root folder in your terminal run:
 
 `npm run start`
 
 ## recommended extentions for vscode
+
+Not an extention but here's a list of [vscode shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
+In particular the basic editing and multi-cursor and selection sections come in very handy!
 
 [live preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)  
 
