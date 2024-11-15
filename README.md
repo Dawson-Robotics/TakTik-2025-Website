@@ -35,6 +35,7 @@ Recommended if you know the basics already but if you're still learning it may b
 
 ## Checklist
 
+- [ ] nav component
 - [ ] Home page
 - [ ] Team page
 - [ ] Divisions page
