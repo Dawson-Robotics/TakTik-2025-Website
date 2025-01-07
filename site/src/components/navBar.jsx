@@ -1,43 +1,58 @@
 import { useState, useCallback } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './navBar.css';
 import '../main.css';
 
-export function NavBar({lang, setLang}) {
-    
+export function NavBar({ lang, setLang }) {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    // Define pages with their routes and translations
     const pages = {
-        EN: ['Home', 'Team', 'Divisions', 'Logs', 'Media'],
-        FR: ['Accueil', 'Équipe', 'Divisions', 'Journaux', 'Médias']
+        EN: [
+            { name: 'Home', path: '/' },
+            { name: 'Team', path: '/team' },
+            { name: 'Divisions', path: '/divisions' },
+            { name: 'Logs', path: '/logs' },
+            { name: 'Media', path: '/media' }
+        ],
+        FR: [
+            { name: 'Accueil', path: '/' },
+            { name: 'Équipe', path: '/team' },
+            { name: 'Divisions', path: '/divisions' },
+            { name: 'Journaux', path: '/logs' },
+            { name: 'Médias', path: '/media' }
+        ]
     };
-    
-    const [activeIndex, setActiveIndex] = useState(0);
-    
+
+    // Find active index based on current path
+    const activeIndex = pages[lang].findIndex(
+        page => page.path === location.pathname
+    );
+
     const onLangClick = useCallback(() => {
         setLang(lang === 'EN' ? 'FR' : 'EN');
     }, [lang, setLang]);
-    
-    const handleClick = (e) => {
+
+    const handleClick = (e, path) => {
         if (e.target.tagName.toLowerCase() === 'a') {
-            
-            const clickedText = e.target.textContent;
-            const newIndex = pages[lang].findIndex(item => item === clickedText);
-            if (newIndex !== -1) {
-                setActiveIndex(newIndex);
-            }
+            navigate(path);
         }
     };
-    
+
     return (
         <nav>
             <div id="lang-select" onClick={onLangClick}>
                 {lang}
             </div>
-            <ul onClick={handleClick}>
+            <ul>
                 {pages[lang].map((item, index) => (
                     <li
                         key={index}
                         className={`nav-item ${activeIndex === index ? 'active' : ''}`}
+                        onClick={(e) => handleClick(e, item.path)}
                     >
-                        <a>{item}</a>
+                        <a>{item.name}</a>
                     </li>
                 ))}
             </ul>
