@@ -38,12 +38,10 @@ Recommended if you know the basics already but if you're still learning it may b
 
 ## Checklist
 
-- [ ] nav component
+- [x] nav component
 - [ ] Home page
 - [ ] Team page
 - [ ] Divisions page
 - [ ] Logs page
-- [ ] Individual team pages
 - [ ] media / thank you page
-- [ ] crew page
-- [ ] Minigames! like the fallout hacking game
+- [ ] Minigames! like the fallout hacking game (if we have time)
