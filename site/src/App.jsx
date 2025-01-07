@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { useState } from 'react';
+import { RootLayout } from './components/RootLayout';
+import { HomePage } from './pages/homePage';
+// Import other page components...
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [lang, setLang] = useState('EN');
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Robotics!</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <RootLayout lang={lang} setLang={setLang} />,
+      children: [
+        {
+          index: true, // This makes it the index route
+          element: <HomePage lang={lang} setLang={setLang} />
+        }
+        // {
+        //   path: 'team',
+        //   element: <Team />
+        // },
+        // {
+        //   path: 'divisions',
+        //   element: <Divisions />
+        // },
+        // {
+        //   path: 'logs',
+        //   element: <Logs />
+        // },
+        // {
+        //   path: 'media',
+        //   element: <Media />
+        // }
+      ]
+    }
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
