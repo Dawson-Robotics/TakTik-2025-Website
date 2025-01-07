@@ -1,0 +1,54 @@
+#home-main {
+    flex: 5
+  }
+  
+  #char-info {
+    position: fixed;
+    width: 100%;
+    bottom: 0.4em;
+    left: 0em;
+    display: flex;
+    flex-direction: row;
+    color: var(--dawson-blue);
+    font-size: 1.7em;
+  }
+  
+  #health-Points {
+    flex: 1;
+    background-color: var(--special-bg);
+    margin: 0 0.5em;
+    padding: 0.2em
+  }
+  
+  #level {
+    flex: 4;
+    background-color: var(--special-bg);
+    padding: 0.2em;
+    display: flex;
+    align-items: center;
+  }
+
+  #level-text{
+    width: 4.5em;
+  }
+  
+  #xp-bar {
+    border: solid 0.1em var(--dawson-blue);
+    width: 88%;
+    margin: 0em 0.5em;
+    display: flex;
+    height: 63%;
+  }
+  
+  #xp-earned {
+    background-color: var(--dawson-blue);
+    width: 80%;
+  }
+  
+  #action-Points {
+    flex: 1;
+    background-color: var(--special-bg);
+    padding: 0.2em;
+    width: 90%;
+    margin: 0 0.5em;
+  }
