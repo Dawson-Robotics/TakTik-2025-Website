@@ -24,7 +24,7 @@ nav {
     position: absolute;
     display: block;
     background: var(--dawson-blue);
-    top: 4.2em;
+    top: 4em;
   }
   
   nav ul {
@@ -45,6 +45,9 @@ nav {
   .nav-item {
     position: relative;
     padding: 0px 20px;
+    width: 7.5em;
+    display: flex;
+    align-items: center;
   }
   .nav-item a{
     text-align: center;
@@ -68,5 +71,5 @@ nav {
     border: 2px solid;
     border-bottom: none;
     left: 0;
-    height: 27px;
+    height: 23px;
   }
