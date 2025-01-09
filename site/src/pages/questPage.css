@@ -1,0 +1,26 @@
+#questPage{
+    display: flex;
+    color: var(--dawson-blue);
+    margin-top: 3em;
+}
+
+#questNames{
+    flex: 1;
+    margin-right: 0.5em;
+}
+.questContent{
+    flex:3
+}
+
+.questContent ul{
+    list-style-type: decimal;
+}
+
+.quest{
+    cursor: pointer;
+
+}
+
+.selectedQuest{
+    background-color: var(--special-bg);
+}
