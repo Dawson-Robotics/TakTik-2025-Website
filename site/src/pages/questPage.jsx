@@ -23,7 +23,6 @@ const TakTik2025Quest = ({ lang }) => (
         {lang === 'EN' ? (
             <div>
                 {/* English content */}
-                <p>
                     This year&apos;s game is a 2v2. The game pieces are rings with a hollow center made of plastic that are either blue or yellow, to represent each team. Robots are only allowed to interact with only their own rings. Each robot can only hold 3 rings and robots are not allowed to be preloaded. The game pieces can be picked up from either the vertical stacks near the center of the field or the horizontal stacks found on the sides of the field. There are 4 stations where the game pieces can be put:
                     <ul>
                         <li>
@@ -41,30 +40,27 @@ const TakTik2025Quest = ({ lang }) => (
                     </ul>
                     The field is divided into 9 sections, with one station in each section. The center field is The Zone. There are 4 Ring Catchers, 2 Inverted Catchers and 2 Duels.
                     Now, as the name suggests, the field represents a tic-tac-toe board. For every 3 aligned station that a team owns forming a single tic-tac-toe, their points increase by 50%. If a station is part of multiple tic-tac-toes, then the value is doubled. There are only 5 minutes for the entire game.
-                </p>
             </div>
         ) : (
             <div>
                 {/* French content */}
-                <p>
                     Le jeu de cette année est un 2v2. Les pièces de jeu sont des anneaux avec un centre creux en plastique, soit bleus, soit jaunes, pour représenter chaque équipe. Les robots ne sont autorisés à interagir qu&apos;avec leurs propres anneaux. Chaque robot peut tenir un maximum de 3 anneaux, et aucun anneau ne peut être préchargé dans les robots. Les pièces de jeu peuvent être récupérées soit dans les piles verticales près du centre du terrain, soit dans les piles horizontales situées sur les côtés du terrain. Il y a 4 stations où les pièces de jeu peuvent être déposées:
                     <ul>
                         <li>
-                        Le Collecteur d&apos;Anneaux : Un poteau vertical fixé au sol dans lequel l&apos;équipe doit faire tomber les anneaux. Chaque Collecteur d&apos;Anneaux peut contenir entre 6 et 24 anneaux, une valeur qui peut varier d&apos;une partie à l&apos;autre. Chaque anneau vaut 20 points, et l&apos;équipe qui dépose le dernier anneau contrôle la station.
+                            Le Collecteur d&apos;Anneaux : Un poteau vertical fixé au sol dans lequel l&apos;équipe doit faire tomber les anneaux. Chaque Collecteur d&apos;Anneaux peut contenir entre 6 et 24 anneaux, une valeur qui peut varier d&apos;une partie à l&apos;autre. Chaque anneau vaut 20 points, et l&apos;équipe qui dépose le dernier anneau contrôle la station.
                         </li>
                         <li>
-                        Le Collecteur Inversé : Identique au Collecteur d&apos;Anneaux, mais à l&apos;envers ! Chaque anneau y vaut 40 points, et cette fois, c&apos;est le premier anneau déposé qui détermine quelle équipe contrôle la station.
+                            Le Collecteur Inversé : Identique au Collecteur d&apos;Anneaux, mais à l&apos;envers ! Chaque anneau y vaut 40 points, et cette fois, c&apos;est le premier anneau déposé qui détermine quelle équipe contrôle la station.
                         </li>
                         <li>
-                        Le Duel : Deux poteaux horizontaux, un bleu et un jaune. Chaque anneau déposé sur un poteau vaut 30 points, et chaque côté peut contenir un maximum de 8 anneaux. Le côté avec le plus d&apos;anneaux contrôle la station.
+                            Le Duel : Deux poteaux horizontaux, un bleu et un jaune. Chaque anneau déposé sur un poteau vaut 30 points, et chaque côté peut contenir un maximum de 8 anneaux. Le côté avec le plus d&apos;anneaux contrôle la station.
                         </li>
                         <li>
-                        La Zone : Cette station comporte 4 zones, comme une cible de fléchettes, chaque zone valant 5 points de plus que la précédente. Au centre se trouve un poteau. Le premier anneau déposé sur ce poteau vaut 500 points, et chaque anneau suivan vaut 100 points de moins que le précédent, jusqu&apos;à un minimum de 5 points. L&apos;équipe avec le plus grand nombre d&apos;anneaux proches du centre gagne cette station.
+                            La Zone : Cette station comporte 4 zones, comme une cible de fléchettes, chaque zone valant 5 points de plus que la précédente. Au centre se trouve un poteau. Le premier anneau déposé sur ce poteau vaut 500 points, et chaque anneau suivan vaut 100 points de moins que le précédent, jusqu&apos;à un minimum de 5 points. L&apos;équipe avec le plus grand nombre d&apos;anneaux proches du centre gagne cette station.
                         </li>
                     </ul>
                     Le terrain est divisé en 9 sections, avec une station dans chaque section. Le centre du terrain correspond à La Zone. Il y a 4 Collecteurs d&apos;Anneaux, 2 Collecteurs Inversés et 2 Duels.
                     Comme le nom du jeu l&apos;indique, le terrain représent une grille de morpion (tic-tac-toe). Pour chaque alignement de 3 stations contrôlées par une équipe formant une ligne de morpion, les points de cette équipe augmentent de 50 %. Si une station appartient à plusieurs lignes de morpion, sa valeur est doublée. La partie dure seulement 5 minutes.
-                </p>
             </div>
         )}
     </div>
@@ -121,17 +117,19 @@ export default function QuestPage({ lang, setLang }) {
                 {quests[lang].map((quest, index) => (
                     <p
                         key={index}
-                        className="quest"
+                        className={`quest ${
+                            selectedQuest.questName === quest.questName ? 'selectedQuest' : ''
+                          }`}
                         onClick={() => handleClick(quest)}
                     >
                         {quest.questName}
                     </p>
                 ))}
             </section>
-            <aside className="mt-4">
-                {/* Render the selected component and pass necessary props */}
-                {selectedQuest && <selectedQuest.component lang={lang} />}
-            </aside>
+
+            {/* Render the selected component and pass necessary props */}
+            {selectedQuest && <selectedQuest.component lang={lang} />}
+
         </div>
     );
 }
