@@ -1,26 +1,62 @@
-#questPage{
+#questPage {
     display: flex;
     color: var(--dawson-blue);
     margin-top: 3em;
 }
 
-#questNames{
+#questNames {
     flex: 1;
     margin-right: 0.5em;
 }
-.questContent{
-    flex:3
+
+.questContent {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
 }
 
-.questContent ul{
+.questContent ul {
     list-style-type: decimal;
 }
 
-.quest{
-    cursor: pointer;
-
+.questContent h2{
+    font-size: 3em;
 }
 
-.selectedQuest{
+.questContent div{
+    font-size: 1.5em;
+}
+
+.quest {
+    cursor: pointer;
+    font-size: 1.8em;
+}
+
+.selectedQuest {
     background-color: var(--special-bg);
+}
+
+.logoAnchor{
+    display: flex;
+    justify-content: center;
+}
+
+.logoAnchor img {
+    height: auto;
+    width: 15%;
+}
+
+@media (max-width: 1440px){
+    .logoAnchor img {
+        width: 20%;
+    }
+
+    .questContent div{
+        font-size: 1.3em;
+    }
+
+    .questContent h2{
+        font-size: 2em;
+    }
+    
 }

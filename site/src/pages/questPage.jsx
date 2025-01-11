@@ -20,6 +20,9 @@ const TakTik2025Quest = ({ lang }) => (
         <h2>
             {lang === 'EN' ? 'TakTik 2025 Rules' : 'Règles TakTik 2025'}
         </h2>
+        <a className="logoAnchor" href="https://robo-crc.ca/taktik-2025/">
+            <img src="images/logos/TAKTIK-LOGO.png" alt="Taktik logo"/>
+        </a>
         {lang === 'EN' ? (
             <div>
                 {/* English content */}
