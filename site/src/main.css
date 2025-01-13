@@ -28,10 +28,9 @@ body::before {
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
-    min-width: 100vw;
-    min-height: 100vh;
 }
 
 body {
     background-color: var(--bg_colour);
+    margin-bottom: unset;
 }

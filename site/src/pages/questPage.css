@@ -50,19 +50,26 @@
 
 .questContent h2 {
     font-size: 2em;
+    margin: unset;
 }
 
 @media (min-width: 1440px) {
     .logoAnchor img {
-        width: 15%;
+        width: 13%;
+    }
+}
+
+@media (max-width:850px){
+    .questContent h2{
+        font-size: 1.7em;
     }
 
     .questContent div {
+        font-size: 1.2em;
+    }
+
+    .quest{
         font-size: 1.5em;
     }
-
-    .questContent h2 {
-        font-size: 3em;
-    }
-
 }
+
