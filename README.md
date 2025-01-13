@@ -39,7 +39,8 @@ Recommended if you know the basics already but if you're still learning it may b
 ## Checklist
 
 - [x] nav component
-- [ ] Home page
+- [ ] Home page (mostly done, missing the center art piece)
+- [ ] Current quest page (2/3 done)
 - [ ] Team page
 - [ ] Divisions page
 - [ ] Logs page

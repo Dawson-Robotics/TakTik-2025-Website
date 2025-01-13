@@ -1,0 +1,68 @@
+#questPage {
+    display: flex;
+    color: var(--dawson-blue);
+    margin-top: 3em;
+}
+
+#questNames {
+    flex: 1;
+    margin-right: 0.5em;
+}
+
+.questContent {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.questContent ul {
+    list-style-type: decimal;
+}
+
+
+.quest {
+    cursor: pointer;
+    font-size: 1.8em;
+}
+
+.selectedQuest {
+    background-color: var(--special-bg);
+}
+
+.logoAnchor {
+    display: flex;
+    justify-content: center;
+}
+
+#crcLogo {
+    width: 25%;
+}
+
+.logoAnchor img {
+    height: auto;
+
+    width: 20%;
+}
+
+.questContent div {
+    font-size: 1.3em;
+}
+
+.questContent h2 {
+    font-size: 2em;
+}
+
+@media (min-width: 1440px) {
+    .logoAnchor img {
+        width: 15%;
+    }
+
+    .questContent div {
+        font-size: 1.5em;
+    }
+
+    .questContent h2 {
+        font-size: 3em;
+    }
+
+}
