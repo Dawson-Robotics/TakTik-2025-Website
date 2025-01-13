@@ -43,7 +43,7 @@ export function NavBar({ lang, setLang }) {
     };
 
     return (
-        <nav>
+        <nav id="desktop-nav">
             <div id="lang-select" onClick={onLangClick}>
                 {lang}
             </div>
