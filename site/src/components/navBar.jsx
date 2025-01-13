@@ -11,6 +11,7 @@ export function NavBar({ lang, setLang }) {
     const pages = {
         EN: [
             { name: 'Home', path: '/' },
+            { name: 'Quest', path: '/quest' },
             { name: 'Team', path: '/team' },
             { name: 'Divisions', path: '/divisions' },
             { name: 'Logs', path: '/logs' },
@@ -18,6 +19,7 @@ export function NavBar({ lang, setLang }) {
         ],
         FR: [
             { name: 'Accueil', path: '/' },
+            { name: 'Quête', path: '/quest' },
             { name: 'Équipe', path: '/team' },
             { name: 'Divisions', path: '/divisions' },
             { name: 'Journaux', path: '/logs' },
