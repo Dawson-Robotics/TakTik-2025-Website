@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { useState } from 'react';
 import { RootLayout } from './components/RootLayout';
 import { HomePage } from './pages/homePage';
+import MediaPage from './pages/mediaPage';
 import QuestPage from './pages/questPage';
 // Import other page components...
 
@@ -20,7 +21,7 @@ function App() {
         {
           path: '/quest',
           element: <QuestPage lang={lang} setLang={setLang}/>
-        }
+        },
         // {
         //   path: 'team',
         //   element: <Team />
@@ -33,10 +34,10 @@ function App() {
         //   path: 'logs',
         //   element: <Logs />
         // },
-        // {
-        //   path: 'media',
-        //   element: <Media />
-        // }
+        {
+          path: 'media',
+          element: <MediaPage/>
+        }
       ]
     }
   ]);
