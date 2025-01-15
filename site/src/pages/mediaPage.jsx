@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function MediaPage({lang}){
   const mediaTextTranslation = {
-    EN : 'Thank you for Dawson College and SPACE for providing opportunities to learn and experiment in Robotics',
+    EN : 'Thank you Dawson College and SPACE for providing opportunities to learn and experiment in Robotics',
     FR: 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique'
   }
   const [mediaText, setSelectedQuest] = useState(mediaTextTranslation[lang]);
