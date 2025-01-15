@@ -36,7 +36,7 @@ function App() {
         // },
         {
           path: 'media',
-          element: <MediaPage/>
+          element: <MediaPage lang={lang}/>
         }
       ]
     }

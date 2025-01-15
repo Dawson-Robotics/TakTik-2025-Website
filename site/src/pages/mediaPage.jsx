@@ -1,11 +1,17 @@
 import '../main.css';
 import './mediaPage.css';
-export default function MediaPage(){
-  const media_text = {
+import { useState, useEffect } from 'react';
+
+export default function MediaPage({lang}){
+  const mediaTextTranslation = {
     EN : 'Thank you for Dawson College and SPACE for providing opportunities to learn and experiment in Robotics',
-    FR: 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique:'
+    FR: 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique'
   }
-  const [selectedQuest, setSelectedQuest] = useState(quests[lang][0]);
+  const [mediaText, setSelectedQuest] = useState(mediaTextTranslation[lang]);
+   useEffect(() => {
+          const text = mediaTextTranslation[lang === 'EN' ? 'EN' : 'FR']
+          setSelectedQuest(text);
+  }, [lang]);
   const iframeStyle = {
     border: '0',
     width:'30%',
@@ -14,7 +20,7 @@ export default function MediaPage(){
   return (
     <div id="media-container">
         <section id="media-section">
-          <p>Thank you for Dawson College and SPACE for providing opportunities to learn and experiment in Robotics</p>
+          <p>{mediaText}</p>
           <div id="images-wrapper">
             <a href="https://www.dawsoncollege.qc.ca/">
                 <img id="logos" src='/images/logos/Dawson_En_Logo_White_RGB.svg' alt='Dawson Logo'/>
