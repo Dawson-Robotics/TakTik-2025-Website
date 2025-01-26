@@ -30,7 +30,7 @@ const ENMembersInfo = [
             "shark addiction": 100,
             "curry": 40
         },
-        "quote": ""
+        "quote": "I identify as it being Christmas!"
     },
     {
         "name": "Jerome Lavoie",
