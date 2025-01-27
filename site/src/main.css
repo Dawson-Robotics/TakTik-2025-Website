@@ -19,19 +19,22 @@
 body::before {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     background: var(--background-gradient);
-    z-index: 2;
+    z-index: 1000;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
-    min-width: 100vw;
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 body {
     background-color: var(--bg_colour);
+    margin-bottom: unset;
+    min-height: 100vh;
+    position: relative;
 }
