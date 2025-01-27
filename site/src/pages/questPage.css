@@ -51,6 +51,7 @@
 .questContent h2 {
     font-size: 2em;
     margin: unset;
+    text-align: center;
 }
 
 @media (min-width: 1440px) {
