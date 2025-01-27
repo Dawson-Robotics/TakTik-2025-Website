@@ -158,9 +158,9 @@ export function MobileNav({ lang, setLang }) {
             </button>
 
             {isOpen && (
+                
                 <div className="nav-overlay">
-                    <div className="nav-container">
-                        <div className="nav-header">
+                    <div className="nav-header">
                             <button
                                 onClick={onLangClick}
                                 className="lang-button"
@@ -174,6 +174,7 @@ export function MobileNav({ lang, setLang }) {
                                 x
                             </button>
                         </div>
+                    <div className="nav-container">
 
                         <div
                             className={`mobile-nav-items ${isScrolling ? 'is-scrolling' : ''}`}
