@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { useState } from 'react';
 import { RootLayout } from './components/RootLayout';
 import { HomePage } from './pages/homePage';
+import MediaPage from './pages/mediaPage';
 import QuestPage from './pages/questPage';
 // Import other page components...
 
@@ -21,21 +22,21 @@ function App() {
           path: '/quest',
           element: <QuestPage lang={lang} setLang={setLang}/>
         },
+        // {
+        //   path: 'team',
+        //   element: <Team />
+        // },
+        // {
+        //   path: 'divisions',
+        //   element: <Divisions />
+        // },
+        // {
+        //   path: 'logs',
+        //   element: <Logs />
+        // },
         {
-          path: '/team',
-          element: <HomePage lang={lang} setLang={setLang} />
-        },
-        {
-          path: '/divisions',
-          element: <HomePage lang={lang} setLang={setLang} />
-        },
-        {
-          path: '/logs',
-          element: <HomePage lang={lang} setLang={setLang} />
-        },
-        {
-          path: '/media',
-          element: <HomePage lang={lang} setLang={setLang} />
+          path: 'media',
+          element: <MediaPage lang={lang}/>
         }
       ]
     }
