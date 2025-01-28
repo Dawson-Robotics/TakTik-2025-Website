@@ -1,12 +1,16 @@
-import { Suspense } from "react";
 import { ImageWithPlaceholder } from "../placeHolderImage";
 
 /* eslint-disable react/prop-types */
 export function Member({
-    member
+    member,
+    clickFunction
 }) {
+
     return (
-        <div className="member">
+        <div 
+            className="member"
+            onClick={() => clickFunction(member)}
+            >
             <h2 className="memberName">{member.name}</h2>
             <h3>{member.subtitle}</h3>
 
