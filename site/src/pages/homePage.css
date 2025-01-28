@@ -58,3 +58,49 @@
     flex: 3;
   }
 }
+
+@media(max-width: 700px){
+  #level{
+    flex:1
+  }
+  #xp-bar{
+    width: 50%
+  }
+
+  #char-info{
+    font-size: 1.6em;
+  }
+}
+
+@media(max-width: 550px){
+  #xp-earned{
+    width: 70%;
+  }
+}
+
+@media(max-width: 500px){
+  #xp-bar{
+    height: 50%
+  }
+}
+
+@media(max-width: 470px){
+  #char-info{
+    font-size: 1.4em;
+  }
+}
+
+@media(max-width: 350px){
+  #char-info{
+    font-size: 1.2em;
+  }
+
+  #xp-bar{
+    height: 30%
+  }
+
+  #action-Points, #health-Points{
+    flex: 0.5;
+    font-size: 1em;
+  }
+}

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Dawson-Robotics/TakTik-2025-Website#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "taktik-2025-website": "file:"
   }
 }

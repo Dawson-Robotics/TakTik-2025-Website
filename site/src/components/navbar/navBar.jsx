@@ -1,7 +1,6 @@
 import { useState, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './navBar.css';
-import '../main.css';
 
 export function NavBar({ lang, setLang }) {
     const navigate = useNavigate();
@@ -43,7 +42,7 @@ export function NavBar({ lang, setLang }) {
     };
 
     return (
-        <nav>
+        <nav id="desktop-nav">
             <div id="lang-select" onClick={onLangClick}>
                 {lang}
             </div>

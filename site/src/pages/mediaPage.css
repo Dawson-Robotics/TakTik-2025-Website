@@ -1,0 +1,24 @@
+#media-container {
+  display: flex;
+  color: var(--dawson-blue);
+  margin-top: 3em;
+  flex-direction: column;
+}
+#images-wrapper{
+  display: flex;
+}
+
+#map-wrapper{
+  aspect-ratio: 1;       
+  position: relative;
+}
+#media-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+}
+
+#logos{
+  width: 300px;
+}
+

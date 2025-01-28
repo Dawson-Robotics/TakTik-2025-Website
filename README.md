@@ -44,5 +44,5 @@ Recommended if you know the basics already but if you're still learning it may b
 - [ ] Team page
 - [ ] Divisions page
 - [ ] Logs page
-- [ ] media / thank you page
+- [ ] media / thank you page (waiting on tutorial and video)
 - [ ] Minigames! like the fallout hacking game (if we have time)
