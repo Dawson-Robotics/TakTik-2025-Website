@@ -5,7 +5,12 @@
     
 }
 
-#teamPage h2, h3{
+#teamPageHeader{
+    font-size: 3em;
+    margin: 0.5em 1em !important;
+}
+
+#teamPage h1, h2, h3{
     text-align: center;
     font-weight: 200;
     margin: unset;
@@ -36,8 +41,12 @@
     font-size: 1.3rem;
 }
 
-.memberPhoto{
+.memberPhoto img{
     width: 50%
+}
+
+.memberPhoto img[alt="image of Anné-Marie Andrei"]{
+    width: 60%;
 }
 
 @media(max-width:800px){
