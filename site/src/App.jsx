@@ -4,6 +4,7 @@ import { RootLayout } from './components/RootLayout';
 import { HomePage } from './pages/homePage';
 import MediaPage from './pages/mediaPage';
 import QuestPage from './pages/questPage';
+import { TeamPage } from './pages/teamPage';
 // Import other page components...
 
 function App() {
@@ -22,10 +23,10 @@ function App() {
           path: '/quest',
           element: <QuestPage lang={lang} setLang={setLang}/>
         },
-        // {
-        //   path: 'team',
-        //   element: <Team />
-        // },
+        {
+          path: '/team',
+          element: <TeamPage lang={lang} />
+        },
         // {
         //   path: 'divisions',
         //   element: <Divisions />
