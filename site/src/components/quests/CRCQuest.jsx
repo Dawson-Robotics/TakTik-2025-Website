@@ -1,6 +1,8 @@
 export const CRCQuest = ({ lang }) => (
     <div className='questContent'>
-        <h2>CRC Information</h2>
+        <h2>
+            {lang === 'EN' ? 'CRC Information' : 'Information sur la CRC'}
+        </h2>
         <a className="logoAnchor" href="https://robo-crc.ca">
             <img id="crcLogo" src="images/logos/CRClogo.png" alt="CRC logo" />
         </a>

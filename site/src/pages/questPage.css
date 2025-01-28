@@ -13,6 +13,7 @@
     flex: 3;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .questContent ul {
@@ -36,6 +37,10 @@
 
 #crcLogo {
     width: 25%;
+}
+
+#dawTecLogo{
+    width: 10%
 }
 
 .logoAnchor img {
