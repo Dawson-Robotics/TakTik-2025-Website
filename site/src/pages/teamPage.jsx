@@ -52,7 +52,7 @@ export function TeamPage({ lang }) {
             {lang === 'EN' ? 'Team Members' : "Membres De L'èquipe"}
             </h1>
             {displayUser &&
-                <MemberDetails member={displayUser}/>
+                <MemberDetails member={displayUser} clickFunction={(()=>setDisplayUser(''))}/>
             }
             <section id="teamMembersGrid">
                 {

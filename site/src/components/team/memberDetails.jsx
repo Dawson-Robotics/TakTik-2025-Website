@@ -1,12 +1,11 @@
 import './memberDetails.css';
 /* eslint-disable react/prop-types */
 
-export function MemberDetails({ member }) {
+export function MemberDetails({ member, clickFunction}) {
     return (
         <div id="memberDetailsBackground">
             <div id="memberDetails">
-                <img id="backgroundBook" src="/images/ur_special.jpg" />
-                <div id="overlay"></div>
+                {/* <img id="backgroundBook" src="/images/ur_special.jpg" /> */}
                 <div id="page">
                     <div id="leftPage">
                         <h1>{member.name}</h1>
@@ -44,8 +43,12 @@ export function MemberDetails({ member }) {
                             <div id="memberQuote">
                                 {member.quote}
                             </div>
-                            <div id="closeBook">
-
+                            <div
+                             id="closeBook"
+                             onClick={clickFunction}
+                             >
+                                <img src="/images/allDone-cropped.svg"/>
+                                {/* <div>X</div> */}
                             </div>
                         </div>
                     </div>

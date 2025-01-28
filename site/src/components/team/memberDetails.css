@@ -1,5 +1,5 @@
-#memberDetailsBackground{
-        position: fixed;
+#memberDetailsBackground {
+    position: absolute;
     inset: 0;
     background-color: rgba(17, 24, 39, 0.9);
     z-index: 2;
@@ -11,9 +11,16 @@
 
 #memberDetails {
     z-index: 3;
-    position: relative;
-    display: flex;
     justify-content: center;
+    background-image: url(/images/ur_special.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    display: flex;
+    position: fixed;
+    align-self: anchor-center;
 }
 
 #backgroundBook {
@@ -21,23 +28,12 @@
     width: 90%
 }
 
-#page,
-#overlay {
-    position: fixed;
+#page {
     display: flex;
-    height: 51%;
-    width: 89%;
     z-index: 4;
-}
+    width: 100%;
+    height: 100%;
 
-
-#overlay {
-    background-color: yellow;
-    opacity: 0.3;
-    border-radius: 40px;
-    position: fixed;
-    width: 84%;
-    height: 50%;
 }
 
 #leftPage,
@@ -46,21 +42,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
 }
 
 #leftPage h1 {
+    font-family: 'fontdiner';
     margin-top: 1em;
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-shadow: -4px 1px 0 #a3a3a3;
 }
 
 #rightPage {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
     justify-content: space-around;
     color: black;
 }
@@ -72,7 +64,8 @@
 
 #memberTeams:has(> :last-child:nth-child(1)) {
     grid-template-columns: repeat(1, 1fr);
-
+    bottom: 1em;
+    position: relative;
 }
 
 #memberTeams {
@@ -95,9 +88,14 @@
 #traits {
     display: flex;
     flex: 4;
-    gap: 1em;
+    gap: 0.5em;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
+}
+
+#traits .memberTrait:not(:last-child):not(:last-child) {
+    border-bottom: 1px solid;
 }
 
 .memberTrait {
@@ -105,6 +103,8 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 4em;
+    padding: 0.5em;
+    align-items: center;
 }
 
 .memberTrait div {
@@ -119,11 +119,12 @@
 }
 
 #bookBottom {
-    display: flex
-    ;
-        flex-direction: row;
-        margin-bottom: 1em;
-        width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    align-self: baseline;
+    width: 90%
 }
 
 #memberQuote {
@@ -132,6 +133,30 @@
     font-size: 1.3em;
 }
 
-#closeBook{
+#closeBook {
     flex: 0.5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#closeBook img {
+    width: 50%;
+    padding-right: 1em;
+    position: relative;
+}
+
+#closeBook::after {
+    content: "X";
+    position: absolute;
+    bottom: 0.6em;
+    font-size: 2em;
+    right: 1.5em;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 2px;
+    background: #2f322c;
+    color: beige;
+    text-align: center;
+    cursor: pointer;
 }
