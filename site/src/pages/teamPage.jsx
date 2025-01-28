@@ -40,7 +40,9 @@ export function TeamPage({ lang }) {
 
     return (
         <section id="teamPage">
-            <h2>Team Members</h2>
+            <h1 id="teamPageHeader">
+            {lang === 'EN' ? 'Team Members' : "Membres De L'èquipe"}
+            </h1>
             <section id="teamMembersGrid">
                 {
                     members[lang].map( member =>(
