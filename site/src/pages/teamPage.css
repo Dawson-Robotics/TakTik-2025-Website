@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
     color: var(--dawson-blue);
+    
 }
 
-#teamPage h2{
+#teamPage h2, h3{
     text-align: center;
+    font-weight: 200;
+    margin: unset;
+    margin-bottom: 0.5em;
 }
-
 #teamMembersGrid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -15,6 +18,7 @@
     grid-row-gap: 1em;
     grid-auto-rows: auto;
     margin: 1em;
+    justify-items: center;
 }
 
 .member{
@@ -29,8 +33,28 @@
 
 .memberName{
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .memberPhoto{
     width: 50%
+}
+
+@media(max-width:800px){
+    #teamMembersGrid{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+@media(max-width:600px){
+    #teamMembersGrid{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media(max-width:400px){
+    #teamMembersGrid{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }

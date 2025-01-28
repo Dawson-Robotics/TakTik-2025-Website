@@ -14,6 +14,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Adam Clarke",
+        "subtitle":"Builder of Chairs",
         "teams": ["kiosk"],
         "traits": {
             "Chair building": 10,

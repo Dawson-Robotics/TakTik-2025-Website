@@ -4,7 +4,8 @@ export function Member({
 }){
     return(
         <div className="member">
-            <p className="memberName">{member.name}</p>
+            <h2 className="memberName">{member.name}</h2>
+            <h3>{member.subtitle}</h3>
             <img className="memberPhoto" src={member.imgUrl}/>
         </div>
     )
