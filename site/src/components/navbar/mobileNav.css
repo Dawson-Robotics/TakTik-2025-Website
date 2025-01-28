@@ -1,0 +1,141 @@
+.mobile-nav {
+    position: relative;
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .mobile-nav {
+        display: unset;
+    }
+}
+
+.toggle-button {
+    padding: 16px;
+    background-color: var(--special-bg);
+    color: var(--dawson-blue);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.toggle-button:hover {
+    background-color: #1d4ed8;
+}
+
+.nav-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(17, 24, 39, 0.9);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    position: fixed;
+    top: 30%;
+}
+
+.nav-header {
+    display: flex;
+    padding: 16px;
+    top: 0%;
+    position: fixed;
+    right: 0.5em;
+    gap: 2em;
+}
+
+.nav-header button{
+    font-size: 1rem;
+}
+
+.lang-button {
+    padding: 12px 16px;
+    background-color: var(--special-bg);
+    color: var(--dawson-blue);
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lang-button:hover {
+    background-color: #e5e7eb;
+}
+
+.close-button {
+    padding: 8px 16px;
+    background-color: var(--special-bg);
+    color: var(--dawson-blue);
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    color: #4b5563;
+}
+
+.mobile-nav-items {
+    height: 256px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mobile-nav-items.is-scrolling {
+    scroll-behavior: auto;
+}
+
+.mobile-nav-item {
+    padding: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: scale(0.95);
+    text-align: center;
+}
+
+.mobile-nav-item.MobileActive {
+    color: var(--dawson-blue);
+    transform: scale(1);
+}
+
+.mobile-nav-item.adjacent {
+    opacity: 0.5;
+}
+
+.mobile-nav-item.distant {
+    opacity: 0.25;
+}
+
+.mobile-nav-item-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.mobile-nav-item:not(.MobileActive) {
+    color: #1f2937;
+}
+
+.mobile-nav-items::-webkit-scrollbar {
+    display: none;
+}
+
+.mobile-nav-items {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
