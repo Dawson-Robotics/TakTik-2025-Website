@@ -1,3 +1,5 @@
+import Field from "../gameField";
+
 export const TakTik2025Quest = ({ lang }) => (
     <div className='questContent'>
         <h2>
@@ -6,6 +8,7 @@ export const TakTik2025Quest = ({ lang }) => (
         <a className="logoAnchor" href="https://robo-crc.ca/taktik-2025/">
             <img src="images/logos/TAKTIK-LOGO.png" alt="Taktik logo" />
         </a>
+        <Field/>
         {lang === 'EN' ? (
             <div>
                 {/* English content */}
