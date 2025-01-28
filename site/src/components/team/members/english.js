@@ -272,6 +272,15 @@ const ENMembersInfo = [
         "quote": "Someone help me",
         "imgUrl":"/images/team/placeholder.jpg"
     },
+    {
+        "name": "CASS",
+        "teams": ["robot", "video", "kiosk", "programming", "tutorial", "website"],
+        "traits": {
+            "robotics" : 0
+        },
+        "quote": "🐟",
+        "imgUrl":"/images/team/placeholder.jpg"
+    }
     
 
 ]

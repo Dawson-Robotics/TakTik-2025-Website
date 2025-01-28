@@ -1,6 +1,6 @@
 const FRMembersInfo = [
     {
-        "name": "Nathan",
+        "name": "Nathan Bokobza",
         "teams": ["tutoriel"],
         "traits": {
             "Tutoriel": 5,
@@ -63,7 +63,7 @@ const FRMembersInfo = [
         "imgUrl": "/images/team/member/Vlad Bretan.jpg"
     },
     {
-        "name": "Safin",
+        "name": "Safin Haque",
         "teams": ["programmation", "site web"],
         "traits": {
             "Sigma": 100,
@@ -271,7 +271,17 @@ const FRMembersInfo = [
         },
         "quote": "Quelqu'un, aidez-moi.",
         "imgUrl": "/images/team/placeholder.jpg"
+    },
+    {
+        "name": "CASS",
+        "teams": ["robot", "vidéo", "kiosque", "programmation", "tutoriel", "site web"],
+        "traits": {
+            "robotique" : 0
+        },
+        "quote": "🐟",
+        "imgUrl":"/images/team/placeholder.jpg"
     }
+    
 ]
 
 
