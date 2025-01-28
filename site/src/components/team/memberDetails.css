@@ -64,8 +64,6 @@
 
 #memberTeams:has(> :last-child:nth-child(1)) {
     grid-template-columns: repeat(1, 1fr);
-    bottom: 1em;
-    position: relative;
 }
 
 #memberTeams {
@@ -78,6 +76,8 @@
     grid-row-gap: 0px;
     justify-items: center;
     align-items: center;
+    bottom: 1em;
+    position: relative;
 }
 
 #memberTeams div {
