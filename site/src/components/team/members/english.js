@@ -10,7 +10,7 @@ const ENMembersInfo = [
             "Luck": 4
         },
         "quote": "On a scale from 1 to insane, it's not 1",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Nathan Bokobza.jpg"
     },
     {
         "name": "Adam Clarke",
@@ -22,7 +22,7 @@ const ENMembersInfo = [
             "Having a soul": 0
         },
         "quote": "God nerfed me by making me ginger :(",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Adam Clarke.jpg"
     },
     {
         "name": "Sebastian Soto",
@@ -33,7 +33,7 @@ const ENMembersInfo = [
             "curry": 40
         },
         "quote": "I identify as it being Christmas!",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Sebastian Soto.jpg"
     },
     {
         "name": "Jerome Lavoie",
@@ -46,7 +46,7 @@ const ENMembersInfo = [
             "Can Go Outside": "N/A"
         },
         "quote": "Hypnotize your way to happiness!",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Jérôme Lavoie.jpg"
     },
     {
         "name": "Vlad Bretan",
@@ -59,7 +59,7 @@ const ENMembersInfo = [
             "crazy": "I was crazy once..."
         },
         "quote": "As the night is progressing, my brain is not.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Vlad Bretan.jpg"
     },
     {
         "name": "Safin Haque",
@@ -80,7 +80,7 @@ const ENMembersInfo = [
             "nose": 100
         },
         "quote": "We are seers. We are wizards. We speak in visions. Our letters are like flocks of doves, released from under our hats. What we wish for, is ours. And we, America, we are the nation of dreams.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Eden Atlas.jpg"
     },
     {
         "name": "Noah Vezina",
@@ -91,7 +91,7 @@ const ENMembersInfo = [
             "coding": 3
         },
         "quote": "I'm probably ignoring something urgent right now",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Noah Vezina.jpg"
     },
     {
         "name": "Anné-Marie Andrei",
@@ -104,7 +104,7 @@ const ENMembersInfo = [
             "bug enjoyer": "♾️"
         },
         "quote": "As snug as a bug in a rug!!!",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Anné-Marie Andrei.jpg"
     },
     {
         "name": "Callahan Lowe",
@@ -117,7 +117,7 @@ const ENMembersInfo = [
             "Creativity": 95
         },
         "quote": "Dimension your CAD or I will find you.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Callahan Lowe.jpg"
     },
     {
         "name": "Sandra Nitchi",
@@ -129,7 +129,7 @@ const ENMembersInfo = [
             "Good Vibes": 1000
         },
         "quote": "I eat sand.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Sandra Nitchi.jpg"
     },
     {
         "name": "Kit Nemeth",
@@ -140,7 +140,7 @@ const ENMembersInfo = [
             "Grooviness": 9001
         },
         "quote": "I'm not actually on the team I just happened to be blasting music where they were filming the video and they couldn't figure out how to edit it out.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Kit Nemeth.jpg"
     },
     {
         "name": "Tinh Ramdani",
@@ -164,7 +164,7 @@ const ENMembersInfo = [
             "Snow hater": 99
         },
         "quote": "Léa can't walk into a room without making a loud statement",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Léa Bokobza.jpg"
     },
     {
         "name": "Erika Ellingsen",
@@ -176,7 +176,7 @@ const ENMembersInfo = [
             "friendly": 4000
         },
         "quote": "I am going to flip a table",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Erika Ellingsen.jpg"
     },
     {
         "name": "Ioannis Pavlopoulos",
@@ -188,7 +188,7 @@ const ENMembersInfo = [
             "intelligence": 20
         },
         "quote": "You can't be old and wise if you were never young and stupid, and we are on the road to being geniuses.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Ioannis Pavlopoulos.jpg"
     },
     {
         "name": "Jacob Rodrigo",
@@ -201,7 +201,7 @@ const ENMembersInfo = [
             "Screw-stripping": 83
         },
         "quote": "I swear I was holding that Allen key two seconds ago...",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Jacob Rodrigo.jpg"
     },
     {
         "name": "Alexander Segal",
@@ -236,7 +236,7 @@ const ENMembersInfo = [
             "Obscure fun facts": 70
         },
         "quote": "There's two wolves inside me and they wanna kiss",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Sam Polymenakos.jpg"
     },
     {
         "name": "Mohammad Safwan Khan",
@@ -245,7 +245,7 @@ const ENMembersInfo = [
             "Introvertness": 100
         },
         "quote": "Nothing's in present nothing's in future everything's in past so always move forward. No matter what!!!",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Mohammad Safwan Khan.jpg"
     },
     {
         "name": "IZZY",
