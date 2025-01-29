@@ -282,7 +282,34 @@ const ENMembersInfo = [
         },
         "quote": "🐟",
         "imgUrl":"/images/team/placeholder.jpg"
-    }
+    },
+    {
+        "name": "Vault Boy",
+        "teams": ["robot", "video", "kiosk", "programming", "tutorial", "website"],
+        "traits": {
+            "Charisma": 70, 
+            "Appearance": 98, 
+            "Organization": 7, 
+            "Teeth": 32, 
+            "Grandpa": 100
+        },
+        "quote": "I leave and all of the sudden its the apocalypse... Hm.",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
+    {
+        "name": "Iria",
+        "teams": ["kiosk"],
+        "traits": {
+            "Intelligence": 5,
+            "Use of that Intelligence": -2,
+            "Percentage Sawdust": "98.7%",
+            "Sanity": "-0.001%",
+            "Attention span": 1.5,
+            "Likelihood to give you random history facts": "100%"
+        },
+        "quote": "Join robotics they said, it will be fun they said. Little did I know it was secretly endless sawing and sanding.",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
     
 
 ]

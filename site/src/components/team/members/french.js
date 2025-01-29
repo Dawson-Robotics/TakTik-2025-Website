@@ -282,7 +282,35 @@ const FRMembersInfo = [
         },
         "quote": "🐟",
         "imgUrl":"/images/team/placeholder.jpg"
-    }
+    },
+    {
+        "name": "Vault Boy",
+        "teams": ["robot", "vidéo", "kiosque", "programmation", "tutoriel", "site web"],
+        "traits": {
+            "Charisme": 70, 
+            "Apparence": 98, 
+            "Organisation": 7, 
+            "Dents": 32, 
+            "Grand-père": 100
+        },
+        "quote": "Je part et soudainement c'est l'apocalypse... Hm.",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
+    {
+        "name": "Iria",
+        "teams": ["kiosque"],
+        "traits": {
+            "Intelligence": 5,
+            "Utilisation de cette intelligence": -2,
+            "Pourcentage de sciure": "98.7%",
+            "Santé mentale": "-0.001%",
+            "Capacité d'attention": 1.5,
+            "Probabilité de vous donner des faits historiques aléatoires": "100%"
+        },
+        "quote": "Rejoignez la robotique, ils disaient, ce sera amusant, ils disaient. Je ne savais pas que ce serait en réalité du sciage et du ponçage sans fin.",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
+
     
 ]
 
