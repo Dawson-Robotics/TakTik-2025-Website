@@ -220,7 +220,7 @@ const FRMembersInfo = [
         "imgUrl": "/images/team/placeholder.jpg"
     },
     {
-        "name": "Hannah David",
+        "name": "Hannah Mankalanayagam",
         "teams": ["vidéo", "kiosque"],
         "traits": {
             "bavardage": 47,
@@ -228,7 +228,7 @@ const FRMembersInfo = [
             "peinture": 42
         },
         "quote": "Un grand merci à tous mes chouchous.",
-        "imgUrl": "/images/team/placeholder.jpg"
+        "imgUrl": "/images/team/members/Hannah Mankalanayagam.jpg"
     },
     {
         "name": "Effie Polymenakos",
@@ -294,7 +294,7 @@ const FRMembersInfo = [
             "Grand-père": 100
         },
         "quote": "Je part et soudainement c'est l'apocalypse... Hm.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/members/Jacob Davies.jpg"
     },
     {
         "name": "Iria",
@@ -308,7 +308,7 @@ const FRMembersInfo = [
             "Probabilité de vous donner des faits historiques aléatoires": "100%"
         },
         "quote": "Rejoignez la robotique, ils disaient, ce sera amusant, ils disaient. Je ne savais pas que ce serait en réalité du sciage et du ponçage sans fin.",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/members/Iria Araar.jpg"
     },
 
     
