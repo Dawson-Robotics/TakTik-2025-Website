@@ -55,7 +55,7 @@ const FRMembersInfo = [
         "traits": {
             "Furtivité": 78,
             "UwU": 50,
-            "Photographie": 57,
+            "Photographie": 83,
             "ÒwÓ": 100,
             "Fou": "J'étais fou une fois..."
         },
@@ -96,6 +96,7 @@ const FRMembersInfo = [
     },
     {
         "name": "Anné-Marie Andrei",
+        "subtitle":"Chef des Archives",
         "teams": ["vidéo", "site web"],
         "traits": {
             "Santé mentale": -4,
@@ -145,6 +146,7 @@ const FRMembersInfo = [
     },
     {
         "name": "Tinh Ramdani",
+        "subtitle":"(Folle)",
         "teams": ["kiosque"],
         "traits": {
             "diplômé": 100,

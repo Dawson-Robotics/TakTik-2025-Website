@@ -55,7 +55,7 @@ const ENMembersInfo = [
         "traits": {
             "sneak": 78,
             "UwU": 50,
-            "photography": 57,
+            "photography": 83,
             "ÒwÓ": 100,
             "crazy": "I was crazy once..."
         },
@@ -96,6 +96,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Anné-Marie Andrei",
+        "subtitle":"Head Archivist",
         "teams": ["video", "website"],
         "traits": {
             "Sanity": -4,
@@ -145,6 +146,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Tinh Ramdani",
+        "subtitle":"(insane)",
         "teams": ["kiosk"],
         "traits": {
             "graduated": 100,
