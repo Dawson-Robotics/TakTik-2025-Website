@@ -103,7 +103,7 @@ const ENMembersInfo = [
             "Attention Span": -3,
             "Cuteness": 10,
             "Canadian raise": 98,
-            "bug enjoyer": "♾️"
+            "bug enjoyer": "∞"
         },
         "quote": "As snug as a bug in a rug!!!",
         "imgUrl":"/images/team/member/Anné-Marie Andrei.jpg"
@@ -161,7 +161,7 @@ const ENMembersInfo = [
         "name": "Léa Bokobza",
         "teams": ["video", "kiosk"],
         "traits": {
-            "Jewish": "♾️",
+            "Jewish": "∞",
             "Crafty": 10,
             "Pinball": "runs through my vains",
             "Snow hater": 99

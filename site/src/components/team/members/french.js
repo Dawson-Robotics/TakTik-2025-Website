@@ -103,7 +103,7 @@ const FRMembersInfo = [
             "Capacité d'attention": -3,
             "Mignonnerie": 10,
             "Accent canadien": 98,
-            "Amateur de bugs": "♾️"
+            "Amateur de bugs": "∞"
         },
         "quote": "Aussi confo qu'un escargot faisant dodo!!! ",
         "imgUrl": "/images/team/member/Anné-Marie Andrei.jpg"
@@ -161,7 +161,7 @@ const FRMembersInfo = [
         "name": "Léa Bokobza",
         "teams": ["vidéo", "kiosque"],
         "traits": {
-            "Juive": "♾️",
+            "Juive": "∞",
             "Astucieuse": 10,
             "Flipper": "coule dans mes veines",
             "Déteste la neige": 99
