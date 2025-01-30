@@ -310,6 +310,25 @@ const FRMembersInfo = [
         "quote": "Rejoignez la robotique, ils disaient, ce sera amusant, ils disaient. Je ne savais pas que ce serait en réalité du sciage et du ponçage sans fin.",
         "imgUrl":"/images/team/members/Iria Araar.jpg"
     },
+    {
+        "name": "Camille Villeneuve",
+        "teams": ["vidéo"],
+        "traits": {
+            "Aisance à l'oral": -1,
+            "Caresser les chiens": 90,
+        },
+        "quote": " J'imagine que je vais simplement le faire de la maison. ",
+        "imgUrl":"/images/team/members/Iria Araar.jpg"
+    },
+    {
+        "name": "Richardel Leang",
+        "teams": ["robot"],
+        "traits": {
+            "Persévérance" : "forte"
+        },
+        "quote": "I got spunk, sputz, spitz, and spangle. but most importantly, I keep going even if I have no idea whats going on",
+        "imgUrl":"/images/team/members/Iria Araar.jpg"
+    },
 
     
 ]

@@ -310,6 +310,25 @@ const ENMembersInfo = [
         "quote": "Join robotics they said, it will be fun they said. Little did I know it was secretly endless sawing and sanding.",
         "imgUrl":"/images/team/members/Iria Araar.jpg"
     },
+    {
+        "name": "Camille Villeneuve",
+        "teams": ["video"],
+        "traits": {
+            "Speaking skills": -1,
+            "Dog petting": 90,
+        },
+        "quote": "I guess I'll just do it from home.",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
+    {
+        "name": "Richardel Leang",
+        "teams": ["robot"],
+        "traits": {
+            "Persistence" : "forte"
+        },
+        "quote": "I got spunk, sputz, spitz, and spangle. but most importantly, I keep going even if I have no idea whats going on",
+        "imgUrl":"/images/team/placeholder.jpg"
+    },
     
 
 ]
