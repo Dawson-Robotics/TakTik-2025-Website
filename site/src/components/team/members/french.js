@@ -217,7 +217,7 @@ const FRMembersInfo = [
             "Goût musical": 100
         },
         "quote": "Es-tu un gars intelligent ou un gars qui sent mauvais ?",
-        "imgUrl": "/images/team/placeholder.jpg"
+        "imgUrl": "/images/team/member/Alexander Segal.jpg"
     },
     {
         "name": "Hannah Mankalanayagam",

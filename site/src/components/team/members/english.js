@@ -217,7 +217,7 @@ const ENMembersInfo = [
             "Music Taste": 100
         },
         "quote": "Are you a smart fella or a fart smella?",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl": "/images/team/member/Alexander Segal.jpg"
     },
     {
         "name": "Hannah Mankalanayagam",
