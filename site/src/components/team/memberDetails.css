@@ -167,7 +167,7 @@
 }
 
 #memberTeams:has(> :nth-child(4))+div::after {
-    bottom: 10%;
+    bottom: 9%;
 }
 
 #memberTeams {
@@ -192,11 +192,14 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    pointer-events: none;
 }
 
 .closeBook img {
     width: 60%;
     position: relative;
+    cursor: pointer;
+    pointer-events: all;
 }
 
 .closeBook::after {
@@ -213,6 +216,7 @@
     color: beige;
     text-align: center;
     cursor: pointer;
+    pointer-events: all;
 }
 
 
