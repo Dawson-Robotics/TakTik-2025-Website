@@ -64,7 +64,7 @@ const FRMembersInfo = [
     },
     {
         "name": "Safin Haque",
-        "teams": ["programmation", "site web"],
+        "teams": ["site web", "programmation",],
         "traits": {
             "Sigma": 100,
             "Aura": 10000,
@@ -228,7 +228,7 @@ const FRMembersInfo = [
             "peinture": 42
         },
         "quote": "Un grand merci à tous mes chouchous.",
-        "imgUrl": "/images/team/members/Hannah Mankalanayagam.jpg"
+        "imgUrl": "/images/team/member/Hannah Mankalanayagam.jpg"
     },
     {
         "name": "Effie Polymenakos",
@@ -272,7 +272,7 @@ const FRMembersInfo = [
             "fatigue": "oui"
         },
         "quote": "Quelqu'un, aidez-moi.",
-        "imgUrl": "/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Adam Winter.jpg"
     },
     {
         "name": "CASS",
@@ -294,7 +294,7 @@ const FRMembersInfo = [
             "Grand-père": 100
         },
         "quote": "Je part et soudainement c'est l'apocalypse... Hm.",
-        "imgUrl":"/images/team/members/Jacob Davies.jpg"
+        "imgUrl":"/images/team/member/Jacob Davies.jpg"
     },
     {
         "name": "Iria",
@@ -308,7 +308,7 @@ const FRMembersInfo = [
             "Probabilité de vous donner des faits historiques aléatoires": "100%"
         },
         "quote": "Rejoignez la robotique, ils disaient, ce sera amusant, ils disaient. Je ne savais pas que ce serait en réalité du sciage et du ponçage sans fin.",
-        "imgUrl":"/images/team/members/Iria Araar.jpg"
+        "imgUrl":"/images/team/member/Iria Araar.jpg"
     },
     {
         "name": "Camille Villeneuve",
@@ -318,7 +318,7 @@ const FRMembersInfo = [
             "Caresser les chiens": 90,
         },
         "quote": " J'imagine que je vais simplement le faire de la maison. ",
-        "imgUrl":"/images/team/members/Iria Araar.jpg"
+        "imgUrl":"/images/team/placeholder.jpg"
     },
     {
         "name": "Richardel Leang",
@@ -327,7 +327,7 @@ const FRMembersInfo = [
             "Persévérance" : "forte"
         },
         "quote": "I got spunk, sputz, spitz, and spangle. but most importantly, I keep going even if I have no idea whats going on",
-        "imgUrl":"/images/team/members/Iria Araar.jpg"
+        "imgUrl":"/images/team/placeholder.jpg"
     },
 
     

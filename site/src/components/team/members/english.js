@@ -64,7 +64,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Safin Haque",
-        "teams": ["programming", "website"],
+        "teams": ["website", "programming"],
         "traits": {
             "sigma": 100,
             "aura": 10000,
