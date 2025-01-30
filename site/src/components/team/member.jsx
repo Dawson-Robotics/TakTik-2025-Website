@@ -34,7 +34,9 @@ export function Member({
             onClick={() => clickFunction(member)}
         >
             <h2 className="memberName">{member.name}</h2>
-            <h3>{member.subtitle}</h3>
+            {member.subtitle && 
+                <h3>{member.subtitle}</h3>
+            }
 
             <div className="memberPhoto">
                 <ImageWithPlaceholder

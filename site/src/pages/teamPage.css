@@ -49,6 +49,10 @@
     width: 60%;
 }
 
+.member:not(:has(h3)) .memberPhoto{
+    margin-top: 30px;
+}
+
 @media(max-width:800px){
     #teamMembersGrid{
         grid-template-columns: repeat(3, 1fr);

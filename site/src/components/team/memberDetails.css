@@ -16,11 +16,21 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: auto;
-    height: auto;
+    width: 90vmin;
+    aspect-ratio: 251/129;
     display: flex;
     position: fixed;
     align-self: anchor-center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+    #memberDetails {
+        width: 95vw;
+        /* Use more screen width on small devices */
+    }
 }
 
 #backgroundBook {
@@ -28,6 +38,7 @@
     width: 90%
 }
 
+/* left side of the details */
 #page {
     display: flex;
     z-index: 4;
@@ -42,59 +53,63 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 }
 
 #leftPage h1 {
     font-family: 'fontdiner';
     margin-top: 1em;
-    color: black;
     font-size: 2em;
     text-shadow: -4px 1px 0 #a3a3a3;
 }
 
-#rightPage {
-    justify-content: space-around;
-    color: black;
+#longName {
+    font-size: 1.8em !important;
 }
 
+
 #memberImage {
-    width: 45%;
+    width: 40%;
     flex: 1
 }
 
-#memberTeams:has(> :last-child:nth-child(1)) {
-    grid-template-columns: repeat(1, 1fr);
+/* For members who's quotes are too long (yappers) */
+#memberImage[alt="Image of Iria"],
+#memberImage[alt="Image of Eden Atlas"],
+#memberImage[alt="Image of Kit Nemeth"]
+{
+    width: 30%
 }
 
-#memberTeams {
-    flex: 2;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
-    grid-column-gap: 2em;
-    grid-row-gap: 0px;
-    justify-items: center;
-    align-items: center;
-    bottom: 1em;
-    position: relative;
+#memberQuote {
+    flex: 1;
+    align-content: center;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em;
 }
 
-#memberTeams div {
-    font-size: 1.5em;
-    color: black;
+/* right side of the details */
+#rightPage {
+    justify-content: space-around;
 }
 
-#traits {
+.traits {
     display: flex;
     flex: 4;
     gap: 0.5em;
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    width: 80%
 }
 
-#traits .memberTrait:not(:last-child):not(:last-child) {
+.yapperTraits {
+    width: 100%;
+    gap: 0em;
+}
+
+.traits .memberTrait:not(:last-child):not(:last-child) {
     border-bottom: 1px solid;
 }
 
@@ -111,11 +126,16 @@
     font-size: 1.5em;
 }
 
+.yapperTraits .memberTrait div {
+    font-size: 1.1em !important;
+}
+
 .traitValue {
     background-color: beige;
-    padding: 0.3em;
+    padding: 0.4em;
     border-radius: 1em;
     font-size: 1.2em !important;
+    margin-right: 1em;
 }
 
 #bookBottom {
@@ -127,30 +147,59 @@
     width: 90%
 }
 
-#memberQuote {
-    flex: 1;
-    align-content: center;
-    font-size: 1.3em;
+
+#memberTeams:has(> :last-child:nth-child(1)) {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
 }
 
-#closeBook {
-    flex: 0.5;
+#memberTeams:has(> :last-child:nth-child(1)) div {
+    margin-left: 50%;
+}
+
+#memberTeams:has(> :nth-child(4)) {
+    justify-items: center;
+}
+
+#memberTeams:has(> :nth-child(4))+div::after {
+    bottom: 10%;
+}
+
+#memberTeams {
+    flex: 2;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-row-gap: 0.5em;
+    justify-items: center;
+    align-items: center;
+    bottom: 1em;
+    position: relative;
+}
+
+#memberTeams div {
+    font-size: 1.5em;
+    color: black;
+}
+
+.closeBook {
+    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
 
-#closeBook img {
-    width: 50%;
-    padding-right: 1em;
+.closeBook img {
+    width: 60%;
     position: relative;
 }
 
-#closeBook::after {
+.closeBook::after {
     content: "X";
     position: absolute;
-    bottom: 0.6em;
+    bottom: 6%;
     font-size: 2em;
-    right: 1.5em;
+    right: 1em;
     border-radius: 50%;
     width: 36px;
     height: 36px;
@@ -159,4 +208,8 @@
     color: beige;
     text-align: center;
     cursor: pointer;
+}
+
+.javiesClose::after {
+    bottom: 5% !important;
 }
