@@ -17,11 +17,10 @@ export function MemberDetails({ member, clickFunction, lang }) {
     return (
         <div id="memberDetailsBackground">
             <div id="memberDetails">
-                <div id="page">
                     <div id="leftPage">
                         <h1 id={`${member.name.length > 18 ? "longName" : ""}`}>{member.name}</h1>
                         <img id="memberImage" src={member.imgUrl} alt={`Image of ${member.name}`} />
-                        <div id="memberQuote">
+                        <div id="memberQuote" className={`${member.name == 'Eden Atlas' ? 'yapper' : ''}`}>
                             {member.quote}
                         </div>
                     </div>
@@ -61,7 +60,6 @@ export function MemberDetails({ member, clickFunction, lang }) {
                                 <img src={`${lang == 'EN' ? '/images/allDone-cropped.svg' : '/images/terminé-cropped.svg'}`} />
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

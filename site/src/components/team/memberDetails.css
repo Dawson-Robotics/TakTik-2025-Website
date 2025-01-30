@@ -10,6 +10,7 @@
 
 
 #memberDetails {
+    display: flex;
     z-index: 3;
     justify-content: center;
     background-image: url(/images/ur_special.jpg);
@@ -18,9 +19,7 @@
     background-repeat: no-repeat;
     width: 90vmin;
     aspect-ratio: 251/129;
-    display: flex;
     position: fixed;
-    align-self: anchor-center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -38,14 +37,6 @@
     width: 90%
 }
 
-/* left side of the details */
-#page {
-    display: flex;
-    z-index: 4;
-    width: 100%;
-    height: 100%;
-
-}
 
 #leftPage,
 #rightPage {
@@ -89,6 +80,10 @@
     margin: 0.5em;
 }
 
+.yapper{
+    font-size: 1em !important;
+}
+
 /* right side of the details */
 #rightPage {
     justify-content: space-around;
@@ -101,12 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 80%
-}
-
-.yapperTraits {
-    width: 100%;
-    gap: 0em;
+    width: 100%
 }
 
 .traits .memberTrait:not(:last-child):not(:last-child) {
@@ -118,23 +108,19 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 4em;
-    padding: 0.5em;
     align-items: center;
 }
 
 .memberTrait div {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-.yapperTraits .memberTrait div {
-    font-size: 1.1em !important;
-}
 
 .traitValue {
     background-color: beige;
     padding: 0.4em;
     border-radius: 1em;
-    font-size: 1.2em !important;
+    font-size: 1em !important;
     margin-right: 1em;
 }
 
@@ -205,9 +191,9 @@
 .closeBook::after {
     content: "X";
     position: absolute;
-    bottom: 6%;
+    bottom: 4%;
     font-size: 2em;
-    right: 1em;
+    right: 3%;
     border-radius: 50%;
     width: 36px;
     height: 36px;
