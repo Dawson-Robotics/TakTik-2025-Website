@@ -1,11 +1,22 @@
+import { useCallback } from 'react';
 import './memberDetails.css';
 /* eslint-disable react/prop-types */
 
-export function MemberDetails({ member, clickFunction }) {
+export function MemberDetails({ member, clickFunction, lang }) {
+
+    const handleClick = useCallback((e) => {
+        const closeButton = e.currentTarget;
+        closeButton.classList.add('flashing');
+
+        setTimeout(() => {
+            closeButton.classList.remove('flashing');
+            clickFunction();
+        }, 300);
+    }, [clickFunction]);
+
     return (
         <div id="memberDetailsBackground">
             <div id="memberDetails">
-                {/* <img id="backgroundBook" src="/images/ur_special.jpg" /> */}
                 <div id="page">
                     <div id="leftPage">
                         <h1 id={`${member.name.length > 18 ? "longName" : ""}`}>{member.name}</h1>
@@ -45,10 +56,9 @@ export function MemberDetails({ member, clickFunction }) {
                             </div>
                             <div
                                 className={`closeBook ${member.name == 'Vault Boy' ? 'javiesClose' : ""}`}
-                                onClick={clickFunction}
+                                onClick={handleClick}
                             >
-                                <img src="/images/allDone-cropped.svg" />
-                                {/* <div>X</div> */}
+                                <img src={`${lang == 'EN' ? '/images/allDone-cropped.svg' : '/images/terminé-cropped.svg'}`} />
                             </div>
                         </div>
                     </div>
