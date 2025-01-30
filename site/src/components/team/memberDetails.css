@@ -157,6 +157,11 @@
     margin-left: 50%;
 }
 
+#memberTeams:has(> :last-child:nth-child(2)) {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+
 #memberTeams:has(> :nth-child(4)) {
     justify-items: center;
 }
@@ -209,6 +214,25 @@
     text-align: center;
     cursor: pointer;
 }
+
+
+/* Create a new class that will affect the pseudo-element */
+.closeBook.flashing::after {
+    animation: flash 0.3s ease-out forwards;
+}
+
+@keyframes flash {
+    0% {
+      background: #2f322c;
+    }
+    50% {
+      background: rgb(143, 136, 136);
+    }
+    100% {
+      background: #2f322c;
+    }
+  }
+  
 
 .javiesClose::after {
     bottom: 5% !important;
