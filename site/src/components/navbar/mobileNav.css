@@ -3,6 +3,10 @@
     display: none;
 }
 
+body:has(.nav-overlay){
+    overflow-y: hidden;
+}
+
 @media (max-width: 700px) {
     .mobile-nav {
         display: unset;
@@ -32,7 +36,7 @@
 .nav-overlay {
     position: fixed;
     inset: 0;
-    background-color: rgba(17, 24, 39, 0.9);
+    background-color: rgba(17, 24, 39, 0.97);
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -129,7 +133,7 @@
 }
 
 .mobile-nav-item:not(.MobileActive) {
-    color: #1f2937;
+    color: #000000;
 }
 
 .mobile-nav-items::-webkit-scrollbar {

@@ -50,12 +50,13 @@ nav ul {
   width: 7.5em;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item a {
   text-align: center;
   margin: auto;
-  font-size: 32px;
+  font-size: 1.9em;
   line-height: 22px;
   z-index: 1;
   position: relative;
@@ -69,7 +70,7 @@ nav ul {
     width: 5.5em;
   }
   .nav-item a{
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
   #lang-select{
     font-size: 1.8em;
@@ -81,7 +82,7 @@ nav ul {
     width: 4.5em;
   }
   .nav-item a{
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   #lang-select{
     font-size: 1.4em;
