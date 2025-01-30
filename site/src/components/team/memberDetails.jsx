@@ -11,7 +11,7 @@ export function MemberDetails({ member, clickFunction, lang }) {
         setTimeout(() => {
             closeButton.classList.remove('flashing');
             clickFunction();
-        }, 300);
+        }, 500);
     }, [clickFunction]);
 
     return (
