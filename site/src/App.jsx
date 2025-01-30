@@ -27,14 +27,14 @@ function App() {
           path: '/team',
           element: <TeamPage lang={lang} />
         },
-        // {
-        //   path: 'divisions',
-        //   element: <Divisions />
-        // },
-        // {
-        //   path: 'logs',
-        //   element: <Logs />
-        // },
+        {
+          path: '/divisions',
+          element: <div />
+        },
+        {
+          path: 'logs',
+          element: <div />
+        },
         {
           path: 'media',
           element: <MediaPage lang={lang}/>
