@@ -131,10 +131,10 @@ body:has(.nav-overlay){
     font-size: 2rem;
     font-weight: 500;
 }
-
+/* 
 .mobile-nav-item:not(.MobileActive) {
     color: #000000;
-}
+} */
 
 .mobile-nav-items::-webkit-scrollbar {
     display: none;
