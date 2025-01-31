@@ -5,6 +5,7 @@ import { HomePage } from './pages/homePage';
 import MediaPage from './pages/mediaPage';
 import QuestPage from './pages/questPage';
 import { TeamPage } from './pages/teamPage';
+import LogsPage from './pages/logsPage';
 // Import other page components...
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
         },
         {
           path: 'logs',
-          element: <div />
+          element: <LogsPage lang={lang}/>
         },
         {
           path: 'media',
