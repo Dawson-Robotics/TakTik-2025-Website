@@ -18,7 +18,7 @@ export function MemberDetails({ member, clickFunction, lang }) {
         <div id="memberDetailsBackground">
             <div id="memberDetails">
                     <div id="leftPage">
-                        <h1 id={`${member.name.length > 18 ? "longName" : ""}`}>{member.name}</h1>
+                        <h1 id={`${member.name.length > 15 ? "longName" : ""}`}>{member.name}</h1>
                         <img id="memberImage" src={member.imgUrl} alt={`Image of ${member.name}`} />
                         <div id="memberQuote" className={`${member.name == 'Eden Atlas' ? 'yapper' : ''}`}>
                             {member.quote}
