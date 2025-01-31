@@ -195,7 +195,7 @@ const FRMembersInfo = [
     },
     {
         "name": "Jacob Rodrigo",
-        "teams": ["robot"],
+        "teams": ["robot", "vidéo", "kiosque", "programmation", "tutoriel", "site web"],
         "traits": {
             "Permanence de l'objet": 12,
             "Soudure": 65,

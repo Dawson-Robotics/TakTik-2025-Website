@@ -195,7 +195,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Jacob Rodrigo",
-        "teams": ["robot"],
+        "teams": ["robot", "video", "kiosk", "programming", "tutorial", "website"],
         "traits": {
             "Object permanence": 12,
             "Soldering": 65,
