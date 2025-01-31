@@ -116,11 +116,11 @@ body:has(.nav-overlay){
 }
 
 .mobile-nav-item.adjacent {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .mobile-nav-item.distant {
-    opacity: 0.25;
+    opacity: 0.15;
 }
 
 .mobile-nav-item-text {
@@ -128,10 +128,10 @@ body:has(.nav-overlay){
     font-size: 2rem;
     font-weight: 500;
 }
-/* 
+
 .mobile-nav-item:not(.MobileActive) {
-    color: #000000;
-} */
+    color: var(--dawson-blue);
+}
 
 .mobile-nav-items::-webkit-scrollbar {
     display: none;
