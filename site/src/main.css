@@ -46,6 +46,6 @@ body::before {
 body {
     background-color: var(--bg_colour);
     margin-bottom: unset;
-    min-height: 100vh;
+    min-height: 100dvh;
     position: relative;
 }
