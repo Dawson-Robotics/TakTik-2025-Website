@@ -17,7 +17,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 90vmin;
+    width: 90vmax;
     aspect-ratio: 251/129;
     position: fixed;
     top: 50%;
@@ -55,7 +55,7 @@
 }
 
 #longName {
-    font-size: 1.8em !important;
+    font-size: 1.5em !important;
 }
 
 
@@ -96,7 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 100%
+    width: 95%
 }
 
 .traits .memberTrait:not(:last-child):not(:last-child) {
