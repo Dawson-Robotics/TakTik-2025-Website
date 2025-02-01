@@ -332,10 +332,8 @@ const FRMembersInfo = [
     {
         "name": "Finn Price",
         "teams": [],
-        "traits": {
-            "Remplir le formulaire": 0
-        },
-        "quote": "",
+        "traits": {},
+        "quote": "Erreur... aucune citation trouvé",
         "imgUrl":"/images/team/member/Finn Prince.jpg"
     },
     

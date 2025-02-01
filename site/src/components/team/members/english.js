@@ -332,10 +332,8 @@ const ENMembersInfo = [
     {
         "name": "Finn Price",
         "teams": [],
-        "traits": {
-            "Filling out the form" : 0
-        },
-        "quote": "",
+        "traits": {},
+        "quote": "Error... No quote found",
         "imgUrl":"/images/team/member/Finn Prince.jpg"
     },
     
