@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { useState } from 'react';
 import { RootLayout } from './components/RootLayout';
 import { HomePage } from './pages/homePage';
@@ -11,7 +11,7 @@ import LogsPage from './pages/logsPage';
 function App() {
   const [lang, setLang] = useState('EN');
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: <RootLayout lang={lang} setLang={setLang} />,
@@ -21,15 +21,15 @@ function App() {
           element: <HomePage lang={lang} setLang={setLang} />
         },
         {
-          path: '/quest',
+          path: 'quest',
           element: <QuestPage lang={lang} setLang={setLang}/>
         },
         {
-          path: '/team',
+          path: 'team',
           element: <TeamPage lang={lang} />
         },
         {
-          path: '/divisions',
+          path: 'divisions',
           element: <div />
         },
         {
