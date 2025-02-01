@@ -26,6 +26,10 @@
     font-size: 1.8em;
 }
 
+.quest:hover{
+    background-color: var(--special-bg);
+}
+
 .selectedQuest {
     background-color: var(--special-bg);
 }
@@ -40,12 +44,13 @@
 }
 
 #dawTecLogo{
-    width: 10%
+    width: 15%
 }
 
 .logoAnchor img {
     height: auto;
     width: 20%;
+    margin: 2em 0;
 }
 
 .questContent div {
