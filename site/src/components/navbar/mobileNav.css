@@ -3,6 +3,10 @@
     display: none;
 }
 
+body:has(.nav-overlay){
+    overflow-y: hidden;
+}
+
 @media (max-width: 700px) {
     .mobile-nav {
         display: unset;
@@ -22,6 +26,7 @@
     justify-content: center;
     font-weight: 800;
     font-size: 1rem;
+    position: fixed;
 }
 
 .toggle-button:hover {
@@ -31,11 +36,12 @@
 .nav-overlay {
     position: fixed;
     inset: 0;
-    background-color: rgba(17, 24, 39, 0.9);
+    background-color: rgba(17, 24, 39, 0.97);
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    touch-action: none;
 }
 
 .nav-container {
@@ -65,10 +71,6 @@
     font-weight: 800;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-.lang-button:hover {
-    background-color: #e5e7eb;
 }
 
 .close-button {
@@ -126,10 +128,10 @@
     font-size: 2rem;
     font-weight: 500;
 }
-
+/* 
 .mobile-nav-item:not(.MobileActive) {
-    color: #1f2937;
-}
+    color: #000000;
+} */
 
 .mobile-nav-items::-webkit-scrollbar {
     display: none;

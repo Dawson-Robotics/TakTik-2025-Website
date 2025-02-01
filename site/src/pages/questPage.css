@@ -45,7 +45,6 @@
 
 .logoAnchor img {
     height: auto;
-
     width: 20%;
 }
 
@@ -77,5 +76,21 @@
     .quest{
         font-size: 1.5em;
     }
+
+    
+    #crcLogo {
+        width: 40%;
+    }
+
+    #dawTecLogo{
+        width: 20%
+    }
+
+    .logoAnchor img {
+        height: auto;
+        width: 30%;
+    }
+
+
 }
 
