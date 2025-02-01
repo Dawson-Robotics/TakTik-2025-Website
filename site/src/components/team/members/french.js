@@ -298,7 +298,7 @@ const FRMembersInfo = [
         "imgUrl":"/images/team/member/Jacob Davies.jpg"
     },
     {
-        "name": "Iria",
+        "name": "Ian",
         "teams": ["kiosque"],
         "traits": {
             "Intelligence": 5,
@@ -332,9 +332,15 @@ const FRMembersInfo = [
     },
     {
         "name": "Finn Price",
-        "teams": [],
-        "traits": {},
-        "quote": "Erreur... aucune citation trouvé",
+        "teams": ["vidéo"],
+        "traits": {
+            "Intelligence": 100,
+            "Espièglerie": 100,
+            "Puissance": 100,
+            "Vigeur": 100,
+            "Rigeur": 100
+        },
+        "quote": "la la la la la laaa/la la la la la laaa",
         "imgUrl":"/images/team/member/Finn Prince.jpg"
     },
     
