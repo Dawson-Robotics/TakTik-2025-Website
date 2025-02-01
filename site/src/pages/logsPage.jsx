@@ -1,66 +1,109 @@
-import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import "../main.css";
-import "./logsPage.css";
-import {websiteLogs} from '../components/logTexts/websiteLogs'
-// import {robotLogs} from '../components/logTexts/robotLogs'
+import { useState, useRef, useEffect } from 'react';
+import { websiteLogs } from '../components/logTexts/websiteLogs';
+import { throttle } from 'lodash';
+import './logsPage.css';
 
-export default function LogsPage({lang}) {
-    const [currentLog, setCurrentLog] = useState(websiteLogs)
-    const logs ={
-        EN : [
-            { name: "website", component: websiteLogs},
-            {name: "general"}
+export function LogsPage({ lang }) {
+    const [currentTeam, setCurrentTeam] = useState('general');
+    const [selectedIndex, setSelectedIndex] = useState(0); 
+
+    
+    const teamLogs = {
+        website: websiteLogs,
+        // Add other team logs here as they become available
+    };
+
+    // Team names for the top menu
+    const teams = {
+        EN: [
+            { id: 'general', name: 'GENERAL' },
+            { id: 'robot', name: 'ROBOT' },
+            { id: 'kiosk', name: 'KIOSK' },
+            { id: 'website', name: 'WEBSITE' },
+            { id: 'video', name: 'VIDEO' },
         ],
-        FR : [
-            {name: "site web", component: websiteLogs}
+        FR: [
+            { id: 'general', name: 'GÉNÉRAL' },
+            { id: 'robot', name: 'ROBOT' },
+            { id: 'kiosk', name: 'KIOSQUE' },
+            { id: 'website', name: 'SITE WEB' },
+            { id: 'video', name: 'VIDÉO' },
         ]
-    }
+    };
+
+    // Get current team index
+    const currentIndex = teams[lang].findIndex(team => team.id === currentTeam);
+
+    // Get the current team's logs in the selected language
+    const currentTeamLogs = teamLogs[currentTeam]?.[lang] || [];
+
+    // Get the current entry based on the selected index
+    const currentEntry = currentTeamLogs[selectedIndex] 
+        ? Object.keys(currentTeamLogs[selectedIndex])[0]
+        : null;
+
+    // Find the current entry's content
+    const currentEntryContent = currentEntry 
+        ? currentTeamLogs[selectedIndex][currentEntry]
+        : null;
+
     return (
-        <div id="logsPage">
-            <div id="logsMenu">
-            <ul>
-                {
-                    logs[lang].map(log => 
-                        {
-                            return(
+        <div>
+            {/* Top Navigation Bar */}
+            <div id="logTeamsList">
+                {teams[lang].map((team, index) => {
+                    // Calculate distance from current item
+                    const distance = Math.abs(index - currentIndex);
+
+                    return (
+                        <p
+                            key={team.id}
+                            onClick={() => {
+                                setCurrentTeam(team.id);
+                                setSelectedIndex(0); 
+                            }}
+                            className={`logTeamNames ${distance === 0 ? 'selectedTeam' : distance === 1 ? 'adjacentTeam' : distance === 2 ? 'distantTeam' : 'veryDistantTeam'}`}>
+                            {team.name}
+                        </p>
+                    );
+                })}
+            </div>
+
+            <div id="logsBody">
+                {/* Log Entries Sidebar */}
+                <ul id="logDateList">
+                    {currentTeamLogs.map((entry, index) => {
+                        const entryKey = Object.keys(entry)[0];
+                        return (
                             <li
-                            key={log.name}
+                                key={entryKey}
+                                onClick={() => setSelectedIndex(index)}
+                                className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
                             >
-                                {
-                                    log.name
-                                }
+                                LOG: {entryKey}
                             </li>
-                            )
-                        }
-                    )
-                }
-                {/* <li>Presenting CRC</li>
-                <li>Theme Pitches</li>
-                <li>Theme Announcement + Brainstorm</li>
-                <li>Viewing Of Fallout</li>
-                <li>Getting Things Rolled Off Before Kickoff</li>
-                <li>Where Did Writer A. Go?</li> */}
-            </ul>
-        </div>
-        <div id="logsText">
-            <h2>Getting Things Rolled Off Before Kickoff</h2>
-            <h2>October 25th, 2024</h2>
-            <p>
-                With the CRC publishing the preliminary rulebook last Tuesday and Kickoff taking place in a couple of days,
-                everyone is eager to find out what the official game rules are going to be.
-                We’ve been analyzing the Top Secret Tuesdays for the past month, trying to figure out the hints given.
-                Speaking of, whatever was that…pixely image? Was it a screwdriver? Everyone thought it was a screwdriver.
-                I’m at kickoff and I still can’t tell if that was a screwdriver. One of our members tried to reconstruct
-                the warped image of the playing field found in the prelim rulebook, but to no avail. Some robot members 
-                think that the game pieces are going to be Xs and Os like in Tic-Tac-Toe (I am writing this during kickoff:
-                they are NOT Xs and Os).
-                    
-                This continues ....
-            </p>
-            <p>
-                (Written oct 29 2024 at 10:58pm)
-            </p>
-        </div>
+                        );
+                    })}
+                </ul>
+
+                {/* Log Content */}
+                <div id="logContentBody">
+                    {currentEntryContent ? (
+                        <div>
+                            <h2 className="logTitle">{currentEntry}</h2>
+                            <div className="logContent">
+                                {currentEntryContent}
+                            </div>
+                        </div>
+                    ) : (
+                        <p className="logContent">
+                            {lang === 'EN'
+                                ? 'SELECT AN ENTRY TO VIEW ITS CONTENT'
+                                : 'SÉLECTIONNEZ UNE ENTRÉE POUR VOIR SON CONTENU'}
+                        </p>
+                    )}
+                </div>
+            </div>
         </div>
     );
 }

@@ -1,33 +1,65 @@
-#logsPage {
+#logTeamsList {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logTeamNames {
     color: var(--dawson-blue);
-    margin-top: 3em;
-}
-
-#logsMenu {
-    flex: 2;
-}
-
-#logsMenu ul {
-    list-style: none;
-}
-
-#logsMenu li {
-    font-size: 1.3em;
-    margin-top: 1.3em;
+    font-size: 1.7em;
     cursor: pointer;
 }
 
-#logsText {
-    flex: 5;
-    margin-right: 0.5em;
+.adjacentTeam {
+    opacity: 0.7;
+    font-size: 1.5em;
 }
 
-#logsText h2 {
-    font-size: 2em;
-}
-
-#logsText p {
+.distantTeam {
+    opacity: 0.50;
     font-size: 1.3em;
-    text-align: justify;
+}
+
+.veryDistantTeam{
+    opacity: 0.40;
+    font-size: 1.2em;
+}
+
+#logsBody {
+    display: flex;
+    margin-top: 1em;
+}
+
+#logDateList {
+    flex: 1;
+    list-style-type: none;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+
+.logDate {
+    color: var(--dawson-blue);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.selectedDate {
+    background-color: var(--special-bg);
+}
+
+#logContentBody {
+    flex: 3;
+}
+
+.logTitle {
+    font-size: 2em;
+    color: var(--dawson-blue);
+}
+
+.logContent p {
+    color: var(--dawson-blue);
+    font-size: 1.7em;
 }
