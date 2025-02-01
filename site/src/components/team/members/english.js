@@ -195,6 +195,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Jacob Rodrigo",
+        "subtitle":"Captain",
         "teams": ["robot", "video", "kiosk", "programming", "website"],
         "traits": {
             "Object permanence": 12,
