@@ -40,9 +40,29 @@
     .javiesClose::after {
         bottom: 5% !important;
     }
+    .javiesClose img {
+        height: 80%;
+    }
     #memberTeams:has(> :nth-child(4)) {
         margin-top: 0.5em;
-        font-size: 1.2em;
+        font-size: 0.8em;
+    }
+    .vladTeams {
+        margin-top: 0em !important;
+        font-size: 0.8em;
+    }
+    .vladClose {
+        height: 70%;
+    }
+
+    #memberImage {
+        object-fit: cover;
+        height: 40%;
+    }
+
+    #yapperTraits{
+        font-size: 0.5em;
+        gap: 0em;
     }
 }
 
@@ -95,7 +115,7 @@
 }
 
 .yapper{
-    font-size: 1em !important;
+    font-size: 0.8em !important;
 }
 
 /* right side of the details */
@@ -167,9 +187,9 @@
 }
 
 
-#memberTeams:has(> :nth-child(4))+div::after {
+/* #memberTeams:has(> :nth-child(4))+div::after {
     bottom: 9%;
-}
+} */
 
 #memberTeams {
     flex: 2;

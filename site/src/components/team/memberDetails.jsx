@@ -20,7 +20,7 @@ export function MemberDetails({ member, clickFunction, lang }) {
                     <div id="leftPage">
                         <h1 id={`${member.name.length > 15 ? "longName" : ""}`}>{member.name}</h1>
                         <img id="memberImage" src={member.imgUrl} alt={`Image of ${member.name}`} />
-                        <div id="memberQuote" className={`${member.name == 'Eden Atlas' ? 'yapper' : ''}`}>
+                        <div id="memberQuote" className={`${member.name == 'Eden Atlas' ? 'yapper' : member.name == 'Iria' ? 'yapper' : ""}`}>
                             {member.quote}
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export function MemberDetails({ member, clickFunction, lang }) {
                             }
                         </div>
                         <div id="bookBottom">
-                            <div id="memberTeams">
+                            <div id="memberTeams" className={`${member.name =='Vlad Bretan' ? 'vladTeams' : member.name == 'Iria' ? 'IriaTeams' : ""}`}>
                                 {
                                     member.teams.map(team => (
                                         <div
@@ -54,7 +54,7 @@ export function MemberDetails({ member, clickFunction, lang }) {
                                 }
                             </div>
                             <div
-                                className={`closeBook ${member.name == 'Vault Boy' ? 'javiesClose' : ""}`}
+                                className={`closeBook ${member.name == 'Vault Boy' ? 'javiesClose' : member.name =='Vlad Bretan' ? 'vladClose' : ""}`}
                                 onClick={handleClick}
                             >
                                 <img src={`${lang == 'EN' ? '/images/allDone-cropped.svg' : '/images/terminé-cropped.svg'}`} />
