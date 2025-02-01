@@ -70,20 +70,31 @@
     flex: 1;
     list-style-type: none;
     padding: unset;
-    gap: 1em;
     display: flex;
     flex-direction: column;
     margin-right: 4em;
+}
+
+#logDateList hr{
+    border-color:var(--dawson-blue);
+    width:100%;
 }
 
 .logDate {
     color: var(--dawson-blue);
     font-size: 1.5em;
     cursor: pointer;
+    padding:0.2em;
+}
+
+.logDate:hover{
+    background-color: var(--special-bg);
+    color: #0d0e0c;
 }
 
 .selectedDate {
-    background-color: var(--special-bg);
+    background-color: var(--dawson-blue);
+    color: var(--bg-colour)
 }
 
 #logContentBody {

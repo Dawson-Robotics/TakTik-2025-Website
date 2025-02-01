@@ -78,13 +78,16 @@ export function LogsPage({ lang }) {
                     {currentTeamLogs.map((entry, index) => {
                         const entryKey = Object.keys(entry)[0];
                         return (
-                            <li
-                                key={entryKey}
-                                onClick={() => setSelectedIndex(index)}
-                                className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
-                            >
-                                LOG: {entryKey}
-                            </li>
+                            <>
+                                <li
+                                    key={entryKey}
+                                    onClick={() => setSelectedIndex(index)}
+                                    className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
+                                >
+                                    LOG: {entryKey}
+                                </li>
+                                <hr></hr>
+                            </>
                         );
                     })}
                 </ul>

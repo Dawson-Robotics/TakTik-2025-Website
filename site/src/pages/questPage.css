@@ -24,14 +24,17 @@
 .quest {
     cursor: pointer;
     font-size: 1.8em;
+    padding-left: 0.5em;
 }
 
 .quest:hover{
     background-color: var(--special-bg);
+    color: #0d0e0c;
 }
 
 .selectedQuest {
-    background-color: var(--special-bg);
+    background-color: var(--dawson-blue);
+    color: var(--bg-colour);
 }
 
 .logoAnchor {
