@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 export const robotLogs = {
   EN:[
     {
       "18/10/2024 - Viewing Of Fallout":
       <p>
-        Robot team…didn't talk about anything.They're waiting for kickoff, so until then I guess they're just chatting about budget…or whatnot. Our captain really wants a miter saw.
+        Robot team…didn&apos;t talk about anything.They&apos;re waiting for kickoff, so until then I guess they&apos;re just chatting about budget…or whatnot. Our captain really wants a miter saw.
       </p>
     },
     {
@@ -15,43 +16,43 @@ export const robotLogs = {
     {
       "01/11/2024 - Where Did Writer A. Go?!":
       <p>
-        During this meeting the Robot team ranked tasks/actions the robot should be able to accomplish in order of priority (as seen in this log's pictures). From talking with Cap'n in our free time, I learned that they discussed game strategies and what TakTiks (ha, get it) should be privileged. They went over mechanisms, designs, etc. This meeting was another brainstorming session for the team; it's very important to have a clear idea of what the goals are for the robot before starting anything. If you go in blind, you're probably going to waste time and resources on less-than-ideal mechanisms. Therefore, everyone working on robot is coming up with different avenues & solutions to possible problems before screwing extrusion bars together. I guess I'll use the rest of this log to conclude. Thank you to everyone who contributed to the writing of this entry, I couldn't have done it without you guys! I know I might be a little annoying, chasing every one done and asking for updates, but Writer A.'s has got to do what she's got to do. Much love, Writer A.'s going to sleep. (Written nov 12 2024 at 11:13pm)
+        During this meeting the Robot team ranked tasks/actions the robot should be able to accomplish in order of priority (as seen in this log&apos;s pictures). From talking with Cap&apos;n in our free time, I learned that they discussed game strategies and what TakTiks (ha, get it) should be privileged. They went over mechanisms, designs, etc. This meeting was another brainstorming session for the team; it&apos;s very important to have a clear idea of what the goals are for the robot before starting anything. If you go in blind, you&apos;re probably going to waste time and resources on less-than-ideal mechanisms. Therefore, everyone working on robot is coming up with different avenues & solutions to possible problems before screwing extrusion bars together. I guess I&apos;ll use the rest of this log to conclude. Thank you to everyone who contributed to the writing of this entry, I couldn&apos;t have done it without you guys! I know I might be a little annoying, chasing every one done and asking for updates, but Writer A.&apos;s has got to do what she&apos;s got to do. Much love, Writer A.&apos;s going to sleep. (Written nov 12 2024 at 11:13pm)
       </p>
     },
     {
       "08/11/2024 - Workshops By Grads":
       <p>
-        Robot team did some more brainstorming and tinkered around. I know Cap'n was working on some robot things in his free time like wiring and motors between last meeting and this meeting. Plus, I'd assume the arduino workshop also helped robot folk!With all of that said, Writer A. is now going to close her laptop and listen to her Organic Chemistry professor. Ouh yes, Alkyne reactions, so fun! Your overworked, over-stressed and over it Writer A. is off (Written on nov 14th 2024 at 4:10pm)
+        Robot team did some more brainstorming and tinkered around. I know Cap&apos;n was working on some robot things in his free time like wiring and motors between last meeting and this meeting. Plus, I&apos;d assume the arduino workshop also helped robot folk!With all of that said, Writer A. is now going to close her laptop and listen to her Organic Chemistry professor. Ouh yes, Alkyne reactions, so fun! Your overworked, over-stressed and over it Writer A. is off (Written on nov 14th 2024 at 4:10pm)
       </p>
     },
     {
       "22/11/2024 - Defrosting Mariah Carey":
       <p>
-        As for Robot, they kept talking about CAD and all I could think of was Canadian currency. They then explained to me what CAD was exactly. Per C.L.'s words: “CAD (computer aided design) is a type of software used to model 3D objects and assembles using a computer.” Soon enough, they're going to start working on models for the robot. I saw a few members building mechanisms, such as a pulley system, that could accomplish tasks the robot should be able to do such as placing a game piece onto a post or a horizontal post. Looks pretty cool!      
+        As for Robot, they kept talking about CAD and all I could think of was Canadian currency. They then explained to me what CAD was exactly. Per C.L.&apos;s words: “CAD (computer aided design) is a type of software used to model 3D objects and assembles using a computer.” Soon enough, they&apos;re going to start working on models for the robot. I saw a few members building mechanisms, such as a pulley system, that could accomplish tasks the robot should be able to do such as placing a game piece onto a post or a horizontal post. Looks pretty cool!      
       </p>
     },
     {
       "23/12/2024 to 27/12/2024 - The Crunch Starts":
       <p>
-        As for robot, the team members planned out a schedule of their own. I have attached this schedule to the log pictures, so you can take a look. This week, the main focus was the CAD model of the robot. My daily routine looked a lot like; work on costumes for a few, go up to stand behind Cap'n, ask him about what was going on on his computer screen, he explains what part he was modelling, then go back to work on the jumpsuits. Obviously, we took many breaks. Robotics is supposed to be fun! During one of these many well-deserved breaks, Cap'n turned these blue plastic tubes we have laying around into musical instruments. Honestly, I'm impressed because it did not sound half-bad. Other than CAD, Robot team also started building and testing launchers a bit ahead of schedule. Efficient!. Although I don't understand much about the actual mechanisms (funny, coming from a science student), my favourite part was helping them hold things in place while they told me about how awesome this launch was about to be…and then the game piece travelling 30cm. Fun stuff.
+        As for robot, the team members planned out a schedule of their own. I have attached this schedule to the log pictures, so you can take a look. This week, the main focus was the CAD model of the robot. My daily routine looked a lot like; work on costumes for a few, go up to stand behind Cap&apos;n, ask him about what was going on on his computer screen, he explains what part he was modelling, then go back to work on the jumpsuits. Obviously, we took many breaks. Robotics is supposed to be fun! During one of these many well-deserved breaks, Cap&apos;n turned these blue plastic tubes we have laying around into musical instruments. Honestly, I&apos;m impressed because it did not sound half-bad. Other than CAD, Robot team also started building and testing launchers a bit ahead of schedule. Efficient!. Although I don&apos;t understand much about the actual mechanisms (funny, coming from a science student), my favourite part was helping them hold things in place while they told me about how awesome this launch was about to be…and then the game piece travelling 30cm. Fun stuff.
       </p>
     },
     {
       "30/12/2024 to 03/01/2025 - The Crunch Continues":
       <p>
-        Robot team is on schedule: they are polishing up their CAD models and the launcher has been made, tested, and perfected! They also continued building the base, which I can proudly say I participated in. Though Cap'n had to explain every single step to me because I'm pretty slow…but I participated! They also attached the mecanum wheels to the frame and connected the drive motors to the 12V circuit. Oh, and C.L. made a schematic for the eBoard layout which looks pretty cool. Cap'n J.R.'s departure date is coming up a lot faster than any of us realized, so members are delegating tasks and organizing themselve s to stay productive even without him around. 
+        Robot team is on schedule: they are polishing up their CAD models and the launcher has been made, tested, and perfected! They also continued building the base, which I can proudly say I participated in. Though Cap&apos;n had to explain every single step to me because I&apos;m pretty slow…but I participated! They also attached the mecanum wheels to the frame and connected the drive motors to the 12V circuit. Oh, and C.L. made a schematic for the eBoard layout which looks pretty cool. Cap&apos;n J.R.&apos;s departure date is coming up a lot faster than any of us realized, so members are delegating tasks and organizing themselve s to stay productive even without him around. 
       </p>
     },
     {
       "06/01/2025 to 10/01/2025 - It's Still Crunch Time":
       <p>
-        Members of Robot team have been coming in every day, dedicated to staying on schedule and getting work done. J.L., one of our very dedicated first years, worked on the CAD model of the robot's claw. R.L., another devout first year, came in, helped out and learned a lot about different things veteran members were doing. C.L. drilled holes into the eBoard, cut lexan pieces for it, mounted the CRCduino and the rest of the power distribution. V.B. was super busy so he couldn't come in a lot, but the day he was there, he helped brainstorm and took some progress pictures of our robot.
+        Members of Robot team have been coming in every day, dedicated to staying on schedule and getting work done. J.L., one of our very dedicated first years, worked on the CAD model of the robot&apos;s claw. R.L., another devout first year, came in, helped out and learned a lot about different things veteran members were doing. C.L. drilled holes into the eBoard, cut lexan pieces for it, mounted the CRCduino and the rest of the power distribution. V.B. was super busy so he couldn&apos;t come in a lot, but the day he was there, he helped brainstorm and took some progress pictures of our robot.
       </p>
     },
     {
       "13/01/2025 to 17/01/2025 - The Last Week Has Arrived":
       <p>
-        On Robot team, the work has gotten very computer-based again. Members mainly worked on making the G-Code for the parts needing to be 3D printed using a slicer (which C.L. graciously explained to me). Then, they got into contact with N.F., their liaison with the Mech. Tech. department. They are letting Dawson Robotics use their 3D printers and parts of the claw are being currently printed. It's amazing how much you can do with a courteous email and the flash of a smile.
+        On Robot team, the work has gotten very computer-based again. Members mainly worked on making the G-Code for the parts needing to be 3D printed using a slicer (which C.L. graciously explained to me). Then, they got into contact with N.F., their liaison with the Mech. Tech. department. They are letting Dawson Robotics use their 3D printers and parts of the claw are being currently printed. It&apos;s amazing how much you can do with a courteous email and the flash of a smile.
       </p>
     },
     {
@@ -124,5 +125,3 @@ export const robotLogs = {
     }
   ]
 }
-    
-export default robotLogs

@@ -93,9 +93,11 @@
 .logTitle {
     font-size: 2em;
     color: var(--dawson-blue);
+    border-bottom: 2px solid;
+    padding-bottom: 0.5em;
 }
 
-.logContent p {
+.logContent p, .logContent div {
     color: var(--dawson-blue);
     font-size: 1.7em;
 }
