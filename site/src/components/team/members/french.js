@@ -71,7 +71,7 @@ const FRMembersInfo = [
             "Rizz": -10000
         },
         "quote": "Pourquoi est-ce que je fais ça à moi-même...",
-        "imgUrl": "/images/team/placeholder.jpg"
+        "imgUrl": "/images/team/member/Safin Haque.jpg"
     },
     {
         "name": "Eden Atlas",
@@ -155,7 +155,7 @@ const FRMembersInfo = [
             "tres concentré": 0
         },
         "quote": "Non ! J'ai déjà obtenu mon diplôme ! (Je dis cela tout en continuant à revenir à Dawson Robotics)",
-        "imgUrl": "/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Tinh Ramdani.jpg"
     },
     {
         "name": "Léa Bokobza",
@@ -195,7 +195,8 @@ const FRMembersInfo = [
     },
     {
         "name": "Jacob Rodrigo",
-        "teams": ["robot", "vidéo", "kiosque", "programmation", "tutoriel", "site web"],
+        "subtitle":"Capitaine",
+        "teams": ["robot", "vidéo", "kiosque", "programmation", "site web"],
         "traits": {
             "Permanence de l'objet": 12,
             "Soudure": 65,
@@ -281,7 +282,7 @@ const FRMembersInfo = [
             "robotique" : 0
         },
         "quote": "🐟",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Cassiana Silva Young.jpg"
     },
     {
         "name": "Vault Boy",
@@ -327,9 +328,15 @@ const FRMembersInfo = [
             "Persévérance" : "forte"
         },
         "quote": "I got spunk, sputz, spitz, and spangle. but most importantly, I keep going even if I have no idea whats going on",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Richardel Leang.jpg"
     },
-
+    {
+        "name": "Finn Price",
+        "teams": [],
+        "traits": {},
+        "quote": "Erreur... aucune citation trouvé",
+        "imgUrl":"/images/team/member/Finn Prince.jpg"
+    },
     
 ]
 

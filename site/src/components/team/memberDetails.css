@@ -96,7 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    width: 95%
+    width: 85%
 }
 
 .traits .memberTrait:not(:last-child):not(:last-child) {

@@ -1,0 +1,101 @@
+@media(max-width:700px){
+    #logsPage{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+
+    }
+}
+
+#logTeamsList {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media(max-width: 500px){
+    #logsPage{
+        margin-top: 4em;
+    }
+    #logTeamsList{
+        flex-direction: column;
+        align-items: flex-end;
+        gap:1em;
+    }
+
+    .logTeamNames{
+        margin: unset;
+        padding: 0.2em;
+    }
+
+    .selectedTeam{
+        background-color: var(--special-bg);
+    }
+    #logDateList{
+        margin-right: 2em !important;
+        gap:2em !important;
+    }
+    .logDate{
+        font-size: 1.3em !important;
+    }
+}
+
+.logTeamNames {
+    color: var(--dawson-blue);
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.adjacentTeam {
+    opacity: 0.7;
+    font-size: 1.5em;
+}
+
+.distantTeam {
+    opacity: 0.50;
+    font-size: 1.3em;
+}
+
+.veryDistantTeam{
+    opacity: 0.40;
+    font-size: 1.2em;
+}
+
+#logsBody {
+    display: flex;
+    margin-top: 1em;
+}
+
+#logDateList {
+    flex: 1;
+    list-style-type: none;
+    padding: unset;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+
+.logDate {
+    color: var(--dawson-blue);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.selectedDate {
+    background-color: var(--special-bg);
+}
+
+#logContentBody {
+    flex: 3;
+}
+
+.logTitle {
+    font-size: 2em;
+    color: var(--dawson-blue);
+}
+
+.logContent p {
+    color: var(--dawson-blue);
+    font-size: 1.7em;
+}
