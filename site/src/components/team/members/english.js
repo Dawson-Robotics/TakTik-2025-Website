@@ -71,7 +71,7 @@ const ENMembersInfo = [
             "rizz": -10000
         },
         "quote": "why am I doing this to myself...",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Safin Haque.jpg"
     },
     {
         "name": "Eden Atlas",
@@ -155,7 +155,7 @@ const ENMembersInfo = [
             "locked in": 0
         },
         "quote": "No! I already graduated! (I say as I keep going back to Dawson Robotics)",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Tinh Ramdani.jpg"
     },
     {
         "name": "Léa Bokobza",
@@ -195,7 +195,7 @@ const ENMembersInfo = [
     },
     {
         "name": "Jacob Rodrigo",
-        "teams": ["robot", "video", "kiosk", "programming", "tutorial", "website"],
+        "teams": ["robot", "video", "kiosk", "programming", "website"],
         "traits": {
             "Object permanence": 12,
             "Soldering": 65,
@@ -281,7 +281,7 @@ const ENMembersInfo = [
             "robotics" : 0
         },
         "quote": "🐟",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Cassiana Silva Young.jpg"
     },
     {
         "name": "Vault Boy",
@@ -327,7 +327,16 @@ const ENMembersInfo = [
             "Persistence" : "forte"
         },
         "quote": "I got spunk, sputz, spitz, and spangle. but most importantly, I keep going even if I have no idea whats going on",
-        "imgUrl":"/images/team/placeholder.jpg"
+        "imgUrl":"/images/team/member/Richardel Leang.jpg"
+    },
+    {
+        "name": "Finn Price",
+        "teams": [],
+        "traits": {
+            "Filling out the form" : 0
+        },
+        "quote": "",
+        "imgUrl":"/images/team/member/Finn Prince.jpg"
     },
     
 
