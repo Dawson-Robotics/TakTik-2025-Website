@@ -27,8 +27,22 @@
 
 @media (max-width: 600px) {
     #memberDetails {
-        width: 95vw;
+        background-image: url(/images/ur_special_vertical.jpg);
+        flex-direction: column;
+        width: 50vmax;
+        aspect-ratio: 129/251;
         /* Use more screen width on small devices */
+    }
+
+    .traits{
+        width: 50vw;
+    }
+    .javiesClose::after {
+        bottom: 5% !important;
+    }
+    #memberTeams:has(> :nth-child(4)) {
+        margin-top: 0.5em;
+        font-size: 1.2em;
     }
 }
 
@@ -55,7 +69,7 @@
 }
 
 #longName {
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
 }
 
 
@@ -151,6 +165,7 @@
 #memberTeams:has(> :nth-child(4)) {
     justify-items: center;
 }
+
 
 #memberTeams:has(> :nth-child(4))+div::after {
     bottom: 9%;
