@@ -1,16 +1,17 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState} from 'react';
 import { websiteLogs } from '../components/logTexts/websiteLogs';
-import { throttle } from 'lodash';
+import { robotLogs } from '../components/logTexts/robotLogs'
+import { kioskLogs } from '../components/logTexts/kioskLogs'
 import './logsPage.css';
 
 export function LogsPage({ lang }) {
     const [currentTeam, setCurrentTeam] = useState('general');
     const [selectedIndex, setSelectedIndex] = useState(0); 
-
     
     const teamLogs = {
         website: websiteLogs,
-        // Add other team logs here as they become available
+        robot: robotLogs,
+        kiosk: kioskLogs
     };
 
     // Team names for the top menu
