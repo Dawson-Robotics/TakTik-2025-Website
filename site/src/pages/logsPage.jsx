@@ -48,7 +48,7 @@ export function LogsPage({ lang }) {
         : null;
 
     return (
-        <div>
+        <div id="logsPage">
             {/* Top Navigation Bar */}
             <div id="logTeamsList">
                 {teams[lang].map((team, index) => {

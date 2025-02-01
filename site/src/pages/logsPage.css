@@ -1,9 +1,44 @@
+@media(max-width:700px){
+    #logsPage{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+
+    }
+}
+
 #logTeamsList {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+@media(max-width: 500px){
+    #logsPage{
+        margin-top: 4em;
+    }
+    #logTeamsList{
+        flex-direction: column;
+        align-items: flex-end;
+        gap:1em;
+    }
+
+    .logTeamNames{
+        margin: unset;
+        padding: 0.2em;
+    }
+
+    .selectedTeam{
+        background-color: var(--special-bg);
+    }
+    #logDateList{
+        margin-right: 2em !important;
+        gap:2em !important;
+    }
+    .logDate{
+        font-size: 1.3em !important;
+    }
+}
 
 .logTeamNames {
     color: var(--dawson-blue);
@@ -34,6 +69,7 @@
 #logDateList {
     flex: 1;
     list-style-type: none;
+    padding: unset;
     gap: 1em;
     display: flex;
     flex-direction: column;
