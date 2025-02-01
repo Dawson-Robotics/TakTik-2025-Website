@@ -1,4 +1,4 @@
-const robotLogs = {
+export const robotLogs = {
   EN:[
     {
       "18/10/2024 - Viewing Of Fallout":
