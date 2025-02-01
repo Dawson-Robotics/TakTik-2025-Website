@@ -1,17 +1,45 @@
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import "../main.css";
 import "./logsPage.css";
+import {websiteLogs} from '../components/logTexts/websiteLogs'
+// import {robotLogs} from '../components/logTexts/robotLogs'
 
-export default function LogsPage() {
+export default function LogsPage({lang}) {
+    const [currentLog, setCurrentLog] = useState(websiteLogs)
+    const logs ={
+        EN : [
+            { name: "website", component: websiteLogs},
+            {name: "general"}
+        ],
+        FR : [
+            {name: "site web", component: websiteLogs}
+        ]
+    }
     return (
         <div id="logsPage">
             <div id="logsMenu">
             <ul>
-                <li>Presenting CRC</li>
+                {
+                    logs[lang].map(log => 
+                        {
+                            return(
+                            <li
+                            key={log.name}
+                            >
+                                {
+                                    log.name
+                                }
+                            </li>
+                            )
+                        }
+                    )
+                }
+                {/* <li>Presenting CRC</li>
                 <li>Theme Pitches</li>
                 <li>Theme Announcement + Brainstorm</li>
                 <li>Viewing Of Fallout</li>
                 <li>Getting Things Rolled Off Before Kickoff</li>
-                <li>Where Did Writer A. Go?</li>
+                <li>Where Did Writer A. Go?</li> */}
             </ul>
         </div>
         <div id="logsText">
