@@ -301,8 +301,7 @@ const ENMembersInfo = [
         "name": "Iria",
         "teams": ["kiosk"],
         "traits": {
-            "Intelligence": 5,
-            "Use of that Intelligence": -2,
+            "Intelligence": -2,
             "Percentage Sawdust": "98.7%",
             "Sanity": "-0.001%",
             "Attention span": 1.5,
