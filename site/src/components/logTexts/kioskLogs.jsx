@@ -5,12 +5,15 @@ export const kioskLogs = {
       "18/10/2024 - Viewing of Fallout":
       <p>
         Kiosk team brainstormed different interactive elements for the kiosk, most notably the Pip boy - a device used as a geiger counter. The phone part of the Pip/boy would display video, and the holotape, a storage cassette inserted in the Pip/boy, would play an animation about kiosk. 
+        <img className="logImages" src="/images/logImages/brainstorming_on_chalkboard.jpeg" alt="An image of a chalkboard with sketches of a room"/>
+        <img className="logImages" src="/images/logImages/Kiosk_sketch.jpeg" alt="A piece of paper with a rough draft of the kiosk"/>
       </p>
     },
     {
       "25/10/2024 - Getting things rolling before Kickoff":
       <p>
         As for Kiosk team, they started working on the posters! Our Dawson Robotics artists are on the move, drawing and designing all sorts of pieces. I chatted with the Kiosk members and they all seem to have such good ideas! One poster would be a tic/tac/toe game but the winning row is just nuclear explosions and I think that's absolutely hilarious.
+        <img className="logImages" src="/images/logImages/Clarke_parading_Claire’s_Corpse.jpg" alt="Adam Clarke holding a piece of Claire the chair"/>
       </p>
     },
     {
@@ -25,6 +28,7 @@ export const kioskLogs = {
       "08/11/2024 - Workshops by Grads":
       <p>
         Today, a bunch of Dawson Robotics graduates came to give workshops for Kiosk! Obviously T.R. was a part of this because 1. She's an electrical engineering student and 2. She loves us so much. Her and W.Z. talked about LEDs and how to code them with Arduinos. I couldn't make it to the workshop because Video team really needed to get on the grind, so I checked the powerpoint the graduates made and it's extremely entertaining. When the workshop was done, everyone separated into their respective sub/groups to get working. Kiosk team went into a corner, as they always do, and baptized it the “Kiosk Korner”. They worked on more posters (there's already a few completed ones!) and played around with LEDs.
+        <img className="logImages" src="/images/logImages/Tinh_posing.jpg" alt="Tinh posing in front of a presentation"/>
       </p>
     },
     {
@@ -49,6 +53,7 @@ export const kioskLogs = {
       "06/01/2025 to 10/01/2025 - It's still crunch time":
       <p>
         Kiosk team recruited a bunch of people to help build the Kiosk walls in the school's cafeteria. Everyone came together and after a couple of hours, it was done!  
+        <img className="logImages" src="/images/logImages/Carrying_kiosk_walls.jpg" alt="Kiosk team carrying a wall"/>
       </p>
     },
     {
@@ -63,12 +68,15 @@ export const kioskLogs = {
       "18/10/2024 - Visionnement de Fallout":
       <p>
         L'équipe Kiosque a réfléchi à différents éléments interactifs pour le kiosque, notamment le Pip/Boy, un appareil utilisé comme compteur Geiger. La partie téléphonique du Pip/Boy affichera la vidéo et l'holobande, une cassette de stockage insérée dans le Pip/Boy, diffusera une animation à propos du kiosque. 
+        <img className="logImages" src="/images/logImages/brainstorming_on_chalkboard.jpeg" alt="An image of a chalkboard with sketches of a room"/>
+        <img className="logImages" src="/images/logImages/Kiosk_sketch.jpeg" alt="A piece of paper with a rough draft of the kiosk"/>
       </p>
     },
     {
       "25/10/2024 - On se prépare pour le lancement":
       <p>
         Quant à l'équipe Kiosque, les membres ont maintenant commencé à travailler sur les affiches! Nos artistes sont très actifs, dessinant et concevant toutes sortes d'éléments. J'ai discuté avec S.P. et ils semblent tous avoir de fabuleuses idées! Sur une des affiches, il y aurait un jeu de tic/tac/toe, mais la rangée gagnante serait remplie d'explosions nucléaires. C'est absolument hilarant!
+        <img className="logImages" src="/images/logImages/Clarke_parading_Claire’s_Corpse.jpg" alt="Adam Clarke holding a piece of Claire the chair"/>
       </p>
     },
     {
@@ -84,6 +92,7 @@ export const kioskLogs = {
       "08/11/2024 - Ateliers par les membres diplômés":
       <p>
         Aujourd'hui, un groupe de diplômés de Robotique Dawson est venu donner des ateliers pour l'équipe Kiosque ! Évidemment, T.R. était de la partie parce que 1. Elle est étudiante en génie électrique et 2. Elle nous aime beaucoup. Elle et W.Z. ont parlé des DELs et de leur encodage en utilisant des Arduinos. Je n'ai pas pu assister à l'atelier parce que l'équipe Vidéo devait vraiment se mettre au travail, alors j'ai lu le contenu de la présentation PowerPoint que les diplômés avaient comme support visuel. C'étaient extrêmement divertissant. Une fois l'atelier terminé, tout le monde s'est séparé en sous/groupes pour se mettre au travail. Les membres de l'équipe Kiosque se sont installés dans un coin, comme ils le font toujours, et l'ont baptisé le « Koin Kiosque ». Ils ont travaillé sur d'autres affiches (il y en a déjà quelques/unes de terminées!) et ont joué avec les DELs. 
+        <img className="logImages" src="/images/logImages/Tinh_posing.jpg" alt="Tinh posing in front of a presentation"/>
       </p>
     },
     {
@@ -109,6 +118,7 @@ export const kioskLogs = {
       "06/01/2025 à 10/01/2025 - C'est toujours le temps de travailler":
       <p>
         L'équipe Kiosque a recruté plusieurs personnes pour l'aider à construire les murs du Kiosque dans la cafétéria de l'école. Tout le monde s'est mobilisé et après quelques heures, c'était terminé!  
+        <img className="logImages" src="/images/logImages/Carrying_kiosk_walls.jpg" alt="Kiosk team carrying a wall"/>
       </p>
     },
     {
