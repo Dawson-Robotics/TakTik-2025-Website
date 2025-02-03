@@ -196,7 +196,7 @@ const ENMembersInfo = [
     {
         "name": "Jacob Rodrigo",
         "subtitle":"Captain",
-        "teams": ["robot", "video", "kiosk", "programming", "website"],
+        "teams": ["robot", "video", "kiosk", "programming", "website", "Silly"],
         "traits": {
             "Object permanence": 12,
             "Soldering": 65,
@@ -298,11 +298,10 @@ const ENMembersInfo = [
         "imgUrl":"/images/team/member/Jacob Davies.jpg"
     },
     {
-        "name": "Iria",
+        "name": "Ian",
         "teams": ["kiosk"],
         "traits": {
-            "Intelligence": 5,
-            "Use of that Intelligence": -2,
+            "Intelligence": -2,
             "Percentage Sawdust": "98.7%",
             "Sanity": "-0.001%",
             "Attention span": 1.5,
