@@ -1,4 +1,4 @@
-import { useState} from 'react';
+import { useState, React, Fragment} from 'react';
 import { websiteLogs } from '../components/logTexts/websiteLogs';
 import { robotLogs } from '../components/logTexts/robotLogs';
 import { kioskLogs } from '../components/logTexts/kioskLogs';
@@ -80,16 +80,15 @@ export function LogsPage({ lang }) {
                     {currentTeamLogs.map((entry, index) => {
                         const entryKey = Object.keys(entry)[0];
                         return (
-                            <>
+                            <Fragment key={entryKey} >
                                 <li
-                                    key={entryKey}
                                     onClick={() => setSelectedIndex(index)}
                                     className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
                                 >
                                     LOG: {entryKey}
                                 </li>
                                 <hr></hr>
-                            </>
+                            </Fragment>
                         );
                     })}
                 </ul>
