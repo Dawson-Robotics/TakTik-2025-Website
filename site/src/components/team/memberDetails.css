@@ -1,3 +1,7 @@
+body:has(#memberDetailsBackground){
+    overflow: hidden;
+}
+
 #memberDetailsBackground {
     position: absolute;
     inset: 0;
