@@ -16,8 +16,7 @@ export const CurrentQuest = ({ lang }) => (
             <div>
                 {/* French content */ }
                 En tant que membres du club de robotique de Daw-Tec, nous assurons la prospérité de l&apos;abris 25 en promouvant l&apos;utilisation de la technologie pour les activités de loisirs. Il est prouvé que la stimulation du cerveau humain est le moyen le plus efficace de préparer l&apos;humanité à sa réintégration dans le monde extérieur. Avec l&apos;aide de Pax, Avi et Jacob, Daw-Tec Robotics s&apos;est considérablement développé et est sur le point d&apos;achever son nouvel instrument qui aidera l&apos;équipe à se rendre à la compétition CRC de cette année.
-                Suivez-nous dans nos efforts pour atteindre notre but ultime: recoloniser Montréal, quelque 100 ans après l&apos;attaque nucléaire initiale sur le site de TakTik 2025. (edited)
-                [10:48 PM]
+                Suivez-nous dans nos efforts pour atteindre notre but ultime: recoloniser Montréal, quelque 100 ans après l&apos;attaque nucléaire initiale sur le site de TakTik 2025.
             </div>
         )}
     </div>
