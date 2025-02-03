@@ -6,7 +6,7 @@ body:has(#memberDetailsBackground){
     position: absolute;
     inset: 0;
     background-color: rgba(17, 24, 39, 0.9);
-    z-index: 2;
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body:has(#memberDetailsBackground){
 
 #memberDetails {
     display: flex;
-    z-index: 3;
+    z-index: 4;
     justify-content: center;
     background-image: url(/images/ur_special.jpg);
     background-size: contain;
@@ -69,12 +69,6 @@ body:has(#memberDetailsBackground){
         gap: 0em;
     }
 }
-
-#backgroundBook {
-    z-index: 1;
-    width: 90%
-}
-
 
 #leftPage,
 #rightPage {
