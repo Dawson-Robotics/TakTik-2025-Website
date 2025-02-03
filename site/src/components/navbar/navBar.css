@@ -60,7 +60,7 @@ nav ul {
   line-height: 22px;
   z-index: 1;
   position: relative;
-  background: var(--bg_colour);
+  background: var(--bg-colour);
   cursor: pointer;
   top: 5px;
 }
@@ -91,7 +91,7 @@ nav ul {
 
 .active::before {
   content: "";
-  background: var(--bg_colour);
+  background: var(--bg-colour);
   position: absolute;
   width: 100%;
   top: 14.5px;

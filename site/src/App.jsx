@@ -29,10 +29,6 @@ function App() {
           element: <TeamPage lang={lang} />
         },
         {
-          path: 'divisions',
-          element: <div />
-        },
-        {
           path: 'logs',
           element: <LogsPage lang={lang}/>
         },

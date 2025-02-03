@@ -58,17 +58,20 @@ function Loader() {
 // Main Field component
 function Field() {
   return (
-    <div style={{ width: '70%', height: '300px', padding: '50px 0' }}>
+    <div id="field" style={{ width: '70%', height: '300px', padding: '50px 0' }}>
       <Canvas 
         camera={{ 
           far: 2000,
           fov: 75,
         }}
         shadows
+        gl={{ alpha: true }}
       >
         <CameraSetup />
         <pointLight position={[0, 200, -10]} decay={0} intensity={1} />
-        <color attach="background" args={['#f5efe6']} />
+        {/* Remove this line:
+        <color attach="background" args={['#f5efe6']} /> 
+        */}
         <Suspense fallback={<Loader />}>
           <Model />
         </Suspense>
@@ -76,5 +79,4 @@ function Field() {
     </div>
   )
 }
-
 export default Field

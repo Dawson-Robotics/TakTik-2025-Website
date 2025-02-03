@@ -50,7 +50,8 @@ export default function QuestPage({ lang, setLang }) {
     };
 
     return (
-        <div id="questPage">
+        <div id="questContent">
+        <section id="questPage">
             <section id="questNames">
                 {quests[lang].map((quest, index) => (
                     <p
@@ -68,6 +69,7 @@ export default function QuestPage({ lang, setLang }) {
             {/* Render the selected component and pass necessary props */}
             {selectedQuest && <selectedQuest.component lang={lang} />}
 
+        </section>
         </div>
     );
 }
