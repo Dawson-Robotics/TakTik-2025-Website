@@ -298,7 +298,7 @@ const ENMembersInfo = [
         "imgUrl":"/images/team/member/Jacob Davies.jpg"
     },
     {
-        "name": "Iria",
+        "name": "Ian",
         "teams": ["kiosk"],
         "traits": {
             "Intelligence": -2,

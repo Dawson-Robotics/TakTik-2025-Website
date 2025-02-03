@@ -99,7 +99,7 @@
 }
 
 /* For members who's quotes are too long (yappers) */
-#memberImage[alt="Image of Iria"],
+#memberImage[alt="Image of Ian"],
 #memberImage[alt="Image of Eden Atlas"],
 #memberImage[alt="Image of Kit Nemeth"]
 {
@@ -187,9 +187,6 @@
 }
 
 
-/* #memberTeams:has(> :nth-child(4))+div::after {
-    bottom: 9%;
-} */
 
 #memberTeams {
     flex: 2;
