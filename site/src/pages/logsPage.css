@@ -125,3 +125,12 @@
 .logVideos{
     width:30%;
 }
+
+@media(max-width: 800px){
+    .logImages{
+        width: 90%;
+    }
+    .logVideos{
+        width:60%;
+    }
+}
