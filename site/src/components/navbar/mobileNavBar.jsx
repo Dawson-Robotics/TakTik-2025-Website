@@ -170,8 +170,6 @@ export function MobileNav({ lang, setLang }) {
         scrollTimeout.current = setTimeout(() => {
             setIsScrolling(false);
         }, 150);
-
-        e.preventDefault();
     }, 300);
 
     const orderedItems = getOrderedItems();
