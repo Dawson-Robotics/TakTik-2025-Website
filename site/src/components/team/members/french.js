@@ -166,7 +166,7 @@ const FRMembersInfo = [
             "Flipper": "coule dans mes veines",
             "Déteste la neige": 99
         },
-        "quote": "Léa ne peut pas entrer dans une pièce sans faire une déclaration bruyante.",
+        "quote": "«Léa ne peut pas entrer dans une pièce sans faire une déclaration bruyante.» -Anné",
         "imgUrl": "/images/team/member/Léa Bokobza.jpg"
     },
     {

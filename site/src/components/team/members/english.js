@@ -166,7 +166,7 @@ const ENMembersInfo = [
             "Pinball": "runs through my vains",
             "Snow hater": 99
         },
-        "quote": "Léa can't walk into a room without making a loud statement",
+        "quote": "\"Léa can't walk into a room without making a loud statement\" -Anné",
         "imgUrl":"/images/team/member/Léa Bokobza.jpg"
     },
     {
