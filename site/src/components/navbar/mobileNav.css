@@ -49,6 +49,21 @@ body:has(.nav-overlay){
     top: 30%;
 }
 
+.nav-container::before, .nav-container::after{
+    color: var(--dawson-blue);
+    position: absolute;
+    font-size: 2em;
+    left: 100%;
+}
+.nav-container::before{
+    content: "↑";
+    top: 5%
+}
+.nav-container::after{
+    content: "↓";
+    bottom: 5%
+}
+
 .nav-header {
     display: flex;
     padding: 16px;
