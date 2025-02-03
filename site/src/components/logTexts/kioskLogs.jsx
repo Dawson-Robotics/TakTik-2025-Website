@@ -17,7 +17,7 @@ export const kioskLogs = {
       </p>
     },
     {
-      "01/11/2024 - More brainstorming":
+      "01/11/2024 - More brainstorming, Kiosk log by A.C.":
       <p>
           As Dawson robotics had its first meeting in the month of November, our efforts in Kiosk were picking up. The artists continued their work on the posters, and we have our first completed drawing. I'm so proud of the new members! Furthermore, I continued my work on Claire the Chair - the chair which has been present in Kiosk since The Matrix; Dawson Robotics' Avia 2023 theme.
 	        The computer and technology aspects of Kiosk are still stuck in the brainstorming era. This does slightly worry me because I don't want us to fall behind, but I'm staying optimistic. They're currently working on the “Pip/boy” and the different mechanisms used for it. We were initially going to use a phone, but J.L., a first year robotics member in Kiosk, suggested that we could use a Raspberry Pi and a screen. J.L.'s idea would make it easier to play Fallout propaganda on the Pipboy, however, I'd need to speak with more people in Kiosk at the next meeting before making it a concrete idea.
@@ -80,7 +80,7 @@ export const kioskLogs = {
       </p>
     },
     {
-      "01/11/2024 - Plus de remue/méninges":
+      "01/11/2024 - Plus de remue/méninges, journal de l'équipe Kiosque, par A.C.":
       <p>
         Alors que Robotique Dawson a tenu sa première réunion du mois de novembre, nous avons repris le travail au kiosque. Les artistes ont continué de dessiner les affiches et nous en avons déjà un de complété. Je suis très fier des nouveaux membres! De mon bord, j'ai continué mon travail sur Claire la chaise - la chaise qui a été réutilisée maintenant 3 fois depuis notre thème La Matrice de Avia 2023.
         N.B. Le mot en anglais pour « chaise » rime avec Claire. Il semble que les anglophones ont une touche de comédie. Devrions/nous la nommer Thérèse la Chaise dans les journaux traduits?

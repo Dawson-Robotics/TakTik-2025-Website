@@ -16,7 +16,7 @@ export const websiteLogs = {
       </p>
     },
     {
-      "01/11/2024 - Yay JavaScript we all say in unison":
+      "01/11/2024 - Yay JavaScript we all say in unison, Website log by A.W.":
       <p>
         Today, the Website team went over the CRC rulebook for the website, checked all the requirements provided, went over what needs to be included in the website, and we talked about some of the layout for the pages. In particular, we discussed how we want the team roster page to look and decided on a fallout style &apos;You&apos;re special&apos; book. After that, S.H. taught members the basics of React JS, the JavaScript library that we use to develop our website! Most importantly, the Website team had a special guest appearance from a previous Dawson Robotics member! Website is still very much in its early phases of planning and designing but we&apos;re hoping to get started on the fun coding stuff soon!
         <img className="logImages" src="/images/logImages/website_mewing.jpg" alt="website team staring at the camera having fun"/>
@@ -95,7 +95,7 @@ export const websiteLogs = {
       </p>
     },
     {
-      "01/11/2024 - Yay Javascript, nous disons tous à l'unisson":
+      "01/11/2024 - Yay Javascript, nous disons tous à l'unisson, journal de l'équipe Site Web, par A.W.":
       <p>
         Aujourd&apos;hui, l&apos;équipe Site Web a examiné leur catégorie dans le règlement de la CRC: nous avons vérifié toutes les exigences fournies, nous avons examiné ce qui doit être inclus dans le site Web et nous avons discuté de la mise en page du tout. En particulier, nous avons abordé la page de la liste des membres de l&apos;équipe. Nous avons décidé que la page ressemblera au livret « tu es S.P.E.C.I.A.L » dans les jeux Fallout. Après cela, S.H. a enseigné aux membres les bases de React JS, la bibliothèque JavaScript que nous utilisons pour développer notre site Web!  Cependant, j&apos;ai oublié de mentionner la partie la plus importante de la rencontre…nous avons eu une apparition spéciale d&apos;un précédent membre de Robotique Dawson! Le site Web en est encore à ses premières phases de planification et de conception, mais nous espérons  bientôt commencer le codage (la partie la plus amusante)!
         <img className="logImages" src="/images/logImages/website_mewing.jpg" alt="website team staring at the camera having fun"/>
