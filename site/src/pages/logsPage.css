@@ -70,20 +70,31 @@
     flex: 1;
     list-style-type: none;
     padding: unset;
-    gap: 1em;
     display: flex;
     flex-direction: column;
     margin-right: 4em;
+}
+
+#logDateList hr{
+    border-color:var(--dawson-blue);
+    width:100%;
 }
 
 .logDate {
     color: var(--dawson-blue);
     font-size: 1.5em;
     cursor: pointer;
+    padding:0.2em;
+}
+
+.logDate:hover{
+    background-color: var(--special-bg);
+    color: #0d0e0c;
 }
 
 .selectedDate {
-    background-color: var(--special-bg);
+    background-color: var(--dawson-blue);
+    color: var(--bg-colour)
 }
 
 #logContentBody {
@@ -100,4 +111,26 @@
 .logContent p, .logContent div {
     color: var(--dawson-blue);
     font-size: 1.7em;
+}
+
+.logImages, .logVideos {
+    display: block;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logVideos{
+    width:30%;
+}
+
+@media(max-width: 800px){
+    .logImages{
+        width: 90%;
+    }
+    .logVideos{
+        width:60%;
+    }
 }

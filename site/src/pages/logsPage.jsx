@@ -1,7 +1,9 @@
 import { useState} from 'react';
 import { websiteLogs } from '../components/logTexts/websiteLogs';
-import { robotLogs } from '../components/logTexts/robotLogs'
-import { kioskLogs } from '../components/logTexts/kioskLogs'
+import { robotLogs } from '../components/logTexts/robotLogs';
+import { kioskLogs } from '../components/logTexts/kioskLogs';
+import { generalLogs } from '../components/logTexts/generalLogs';
+import { videoLogs } from '../components/logTexts/videoLogs';
 import './logsPage.css';
 
 export function LogsPage({ lang }) {
@@ -11,7 +13,9 @@ export function LogsPage({ lang }) {
     const teamLogs = {
         website: websiteLogs,
         robot: robotLogs,
-        kiosk: kioskLogs
+        kiosk: kioskLogs,
+        video: videoLogs,
+        general: generalLogs
     };
 
     // Team names for the top menu
@@ -76,13 +80,16 @@ export function LogsPage({ lang }) {
                     {currentTeamLogs.map((entry, index) => {
                         const entryKey = Object.keys(entry)[0];
                         return (
-                            <li
-                                key={entryKey}
-                                onClick={() => setSelectedIndex(index)}
-                                className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
-                            >
-                                LOG: {entryKey}
-                            </li>
+                            <>
+                                <li
+                                    key={entryKey}
+                                    onClick={() => setSelectedIndex(index)}
+                                    className={`logDate ${selectedIndex === index ? 'selectedDate' : ''}`}
+                                >
+                                    LOG: {entryKey}
+                                </li>
+                                <hr></hr>
+                            </>
                         );
                     })}
                 </ul>
