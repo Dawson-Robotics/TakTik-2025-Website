@@ -1,7 +1,11 @@
+#questContent{
+    margin-top: 3em;
+    display: inline-block;
+}
+
 #questPage {
     display: flex;
     color: var(--dawson-blue);
-    margin-top: 3em;
 }
 
 #questNames {
@@ -98,7 +102,6 @@
         height: auto;
         width: 30%;
     }
-
 
 }
 
