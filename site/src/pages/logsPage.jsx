@@ -3,6 +3,7 @@ import { websiteLogs } from '../components/logTexts/websiteLogs';
 import { robotLogs } from '../components/logTexts/robotLogs';
 import { kioskLogs } from '../components/logTexts/kioskLogs';
 import { generalLogs } from '../components/logTexts/generalLogs';
+import { videoLogs } from '../components/logTexts/videoLogs';
 import './logsPage.css';
 
 export function LogsPage({ lang }) {
@@ -13,6 +14,7 @@ export function LogsPage({ lang }) {
         website: websiteLogs,
         robot: robotLogs,
         kiosk: kioskLogs,
+        video: videoLogs,
         general: generalLogs
     };
 
