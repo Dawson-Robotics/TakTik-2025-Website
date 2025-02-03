@@ -51,4 +51,8 @@
   #map-wrapper{
     width: 80% !important;
   }
+
+  #field{
+    width: 100% !important;
+  }
 }
