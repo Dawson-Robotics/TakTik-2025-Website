@@ -12,7 +12,6 @@ export function NavBar({ lang, setLang }) {
             { name: 'Home', path: '/' },
             { name: 'Quest', path: '/quest' },
             { name: 'Team', path: '/team' },
-            { name: 'Divisions', path: '/divisions' },
             { name: 'Logs', path: '/logs' },
             { name: 'Media', path: '/media' }
         ],
@@ -20,7 +19,6 @@ export function NavBar({ lang, setLang }) {
             { name: 'Accueil', path: '/' },
             { name: 'Quête', path: '/quest' },
             { name: 'Équipe', path: '/team' },
-            { name: 'Divisions', path: '/divisions' },
             { name: 'Journaux', path: '/logs' },
             { name: 'Médias', path: '/media' }
         ]

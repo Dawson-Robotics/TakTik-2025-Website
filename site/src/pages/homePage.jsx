@@ -9,63 +9,63 @@ export function HomePage({ lang }) {
                 <div className="gridCell"/>
                 <div id="grid-A" className="gridCell">
                     <pre>
-    /\<br/>
-   /  \<br/>
-  / /\ \<br/>
- / ____ \<br/>
-/_/    \_\<br/>
+    /\<br/><br/>
+   /  \<br/><br/>
+  / /\ \<br/><br/>
+ / ____ \<br/><br/>
+/_/    \_\<br/><br/>
                     </pre>
                 </div>
                 <div className="gridCell"/>
                 <div id="grid-D" className="gridCell">
                     <pre>
-                    _____  <br/>
-                    |  __ \ <br/>
-                    | |  | |<br/>
-                    | |  | |<br/>
-                    | |__| |<br/>
-                    |_____/ <br/>
+                    _____  <br/><br/>
+                    |  __ \ <br/><br/>
+                    | |  | |<br/><br/>
+                    | |  | |<br/><br/>
+                    | |__| |<br/><br/>
+                    |_____/ <br/><br/>
                     </pre>
                 </div>
                 <img src="/images/Website image.png"/>
                 <div className="gridCell">
                     <pre>
-                    __          __<br/>
-                    \ \        / /<br/>
-                    &nbsp;\ \  /\  / /<br/> 
-                    &nbsp;&nbsp;\ \/  \/ /<br/>  
-                    &nbsp;&nbsp;&nbsp;\  /\  /<br/>   
-                    &nbsp;&nbsp;&nbsp;&nbsp;\/  \/<br/>    
+                    __          __<br/><br/>
+                    \ \        / /<br/><br/>
+                    &nbsp;\ \  /\  / /<br/><br/> 
+                    &nbsp;&nbsp;\ \/  \/ /<br/><br/>  
+                    &nbsp;&nbsp;&nbsp;\  /\  /<br/><br/>   
+                    &nbsp;&nbsp;&nbsp;&nbsp;\/  \/<br/><br/>    
                     </pre>
                 </div>
                 <div id="grid-T" className="gridCell">
                     <pre>
-                           _______&nbsp;<br/> 
-                          |__   __|<br/>
-                             | |&nbsp;&nbsp;&nbsp;<br/>   
-                             | |&nbsp;&nbsp;&nbsp;<br/>   
-                             | |&nbsp;&nbsp;&nbsp;<br/>   
-                             |_|&nbsp;&nbsp;&nbsp;<br/>   
+                           _______&nbsp;<br/><br/> 
+                          |__   __|<br/><br/>
+                             | |&nbsp;&nbsp;&nbsp;<br/><br/>   
+                             | |&nbsp;&nbsp;&nbsp;<br/><br/>   
+                             | |&nbsp;&nbsp;&nbsp;<br/><br/>   
+                             |_|&nbsp;&nbsp;&nbsp;<br/><br/>   
                     </pre>
                     </div>
                 <div className="gridCell">
                     <pre>
-                    &nbsp;_____<br/> 
-                    / ____|<br/>
-                    | |<br/>     
-                    | |<br/>     
-                    | |___<br/> 
-                    \_____|<br/>
+                    &nbsp;_____<br/><br/> 
+                    / ____|<br/><br/>
+                    | |<br/><br/>     
+                    | |<br/><br/>     
+                    | |___<br/><br/> 
+                    \_____|<br/><br/>
                     </pre>
                 </div>
                 <div className="gridCell"/>
                 <div id="grid-E" className="gridCell">
-                &nbsp;_______<br/> 
-                &nbsp;|&nbsp;&nbsp;____|<br/>
-                | |__&nbsp;&nbsp;<br/>   
-                &nbsp;| &nbsp;__|&nbsp;&nbsp;<br/>  
-                | |____<br/> 
-                &nbsp;|______|<br/>
+                &nbsp;_______<br/><br/> 
+                &nbsp;|&nbsp;&nbsp;____|<br/><br/>
+                | |__&nbsp;&nbsp;<br/><br/>   
+                &nbsp;| &nbsp;__|&nbsp;&nbsp;<br/><br/>  
+                | |____<br/><br/> 
+                &nbsp;|______|<br/><br/>
                 </div>
                 <div className="gridCell"/>
                 <div className="gridCell"/>
