@@ -1,4 +1,4 @@
-import { useState, React, Fragment} from 'react';
+import { useState, Fragment} from 'react';
 import { websiteLogs } from '../components/logTexts/websiteLogs';
 import { robotLogs } from '../components/logTexts/robotLogs';
 import { kioskLogs } from '../components/logTexts/kioskLogs';
