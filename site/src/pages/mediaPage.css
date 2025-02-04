@@ -19,6 +19,10 @@
   flex-direction: column;  
 }
 
+#media-section p{
+  text-align: center;
+}
+
 #logos{
   width: 300px;
 }
